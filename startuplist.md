@@ -1,3 +1,6 @@
+From https://www.cbinsights.com/research-unicorn-companies/
+NOT THE FINAL LIST, SHOULD BE REPLACED, AND THEN RUN THE SCRIPT ON IT AGAIN
+Truncated companies with long names/spaces.
 "Uber",
 "Xiaomi",
 "Airbnb",
