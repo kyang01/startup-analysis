@@ -1,0 +1,1211 @@
+,Avg_Tweets,Company,Series,Total_Likes,Total_Retweets,Series_Amount,Market
+1,16.3846153846,1stdibs,Series_C,230,134,15000000,Semiconductors
+2,1.60396039604,2tor,Series_C,10,32,32500000,
+3,163.0,365Scores,Series_B,15,23,5500000,Apps
+4,2.10975609756,36Kr,Series_C,58,21,20000,Startups
+6,0.696850393701,6fusion,Series_B,2,28,7000000,Hardware + Software
+7,4.47916666667,6sense,Series_A,42,43,12000000,Invest Online
+9,7.75,AHAlife,Series_B,20,46,10100000,Shopping
+10,0.467469879518,AbilTo,Series_A,18,54,3000000,VoIP
+11,0.437346437346,AbilTo,Series_B,17,52,6000000,VoIP
+12,0.738938053097,Abiquo,Series_A,11,6,2050000,-
+13,0.364285714286,Achievers,Series_A,4,0,4700000,Technology
+14,69.6666666667,Achievers,Series_C,16,67,24500000,Technology
+21,4.5641025641,Acumatica,Series_C,42,71,10000000,Developer Tools
+22,1.30147058824,AdMeld,Series_C,7,42,15000000,-
+23,1.17730496454,AdReady,Series_C,16,13,5300000,Billing
+24,0.552870090634,AdScale,Series_B,8,6,6150000,Advertising
+25,0.343003412969,Adaptiveblue,Series_B,2,0,4520000,Celebrity
+26,0.602076124567,Adaptivity,Series_B,24,54,3000000,Software
+27,1.22619047619,Addepar,Series_B,163,112,50000000,
+28,196.0,AdzCentral,Series_A,37,93,3200000,Hardware + Software
+29,105.0,AdzCentral,Series_B,101,109,3200000,Hardware + Software
+30,inf,Aereo,Series_A,11,61,20500000,
+31,inf,Aereo,Series_B,92,109,38000000,
+32,inf,Aereo,Series_C,123,122,34000000,
+33,2.09459459459,Affectiva,Series_B,12,54,5700000,Fraud Detection
+34,0.769911504425,Aipai,Series_C,29,15,38000000,Health Care
+35,2.22535211268,Airware,Series_B,58,58,25000000,Enterprise Software
+36,10.0952380952,Alfresco,Series_C,8,0,9000000,
+37,2.23611111111,AlienVault,Series_B,41,99,8000000,
+38,4.04761904762,AlienVault,Series_D,107,85,26500000,
+39,227.0,Allegiance,Series_B,12,61,12000000,Network Security
+43,0.472891566265,Amplience,Series_B,15,66,5700000,Diabetes
+44,196.0,Ampulse,Series_A,7,0,8000000,Software
+45,inf,Ampulse,Series_B,7,29,7300000,Software
+46,3.06060606061,Andera,Series_B,3,12,9000000,Finance
+47,28.6666666667,Animoto,Series_B,36,0,4400000,Real Estate
+48,56.6666666667,Animoto,Series_C,9,17,25000000,Real Estate
+52,0.798245614035,AppFirst,Series_A,7,39,4000000,Graphics
+53,4.0,AppFog,Series_A,30,90,1800000,
+54,2.11650485437,Appcelerator,Series_A,4,0,4100000,
+55,11.5,Appcelerator,Series_D,150,176,22000000,
+56,2.19318181818,Appconomy,Series_B,7,44,10000000,Bridging Online and Offline
+57,0.30608974359,Appirio,Series_C,6,1,10000000,
+58,6.60714285714,Appirio,Series_D,28,142,60000000,
+59,0.350210970464,Appistry,Series_D,15,61,12000000,Cloud Computing
+60,1.75806451613,Applause,Series_A,8,1,2300000,
+61,19.0909090909,Applause,Series_B,22,0,5000000,
+62,inf,Applause,Series_C,25,29,13000000,
+63,inf,Applause,Series_D,3,54,17000000,
+64,0.715415019763,Apprenda,Series_B,4,83,10000000,Local Based Services
+65,2.68181818182,Apprenda,Series_C,101,195,16000000,Local Based Services
+66,10.9,Aptana,Series_B,3,0,5500000,Inventory Management Systems
+67,0.611538461538,Aptera,Series_C,9,2,24000000,Collaboration
+68,0.40133037694,Aquto,Series_A,6,12,8000000,Health Care
+70,51.0,Artspace,Series_A,29,100,2500000,Curated Web
+71,52.25,Artspace,Series_B,33,80,8500000,Curated Web
+72,inf,Artsy,Series_A,6,22,6000000,
+73,inf,Artsy,Series_B,223,64,18500000,
+74,1.03409090909,Artwise,Series_A,1,9,1000000,Specialty Retail
+75,1.5041322314,Artwise,Series_B,35,22,1000000,Specialty Retail
+77,9.0,Asana,Series_A,16,2,9000000,
+78,13.4285714286,Assistly,Series_B,35,82,4000000,
+79,0.536082474227,Authentix,Series_C,1,19,15000000,Security
+80,inf,Automatic,Series_A,95,62,5300000,
+81,0.468208092486,Avaak,Series_B,1,0,10000000,Audio
+82,1.85542168675,Avegant,Series_A,102,102,9370000,-
+84,1.82352941176,Aviir,Series_B,7,24,10000000,Biotechnology
+85,2.98630136986,Awareness,Series_A,6,0,7000000,Audio
+86,inf,Awareness,Series_B,10,64,9900000,Audio
+87,40.0,Axial,Series_A,5,20,6500000,B2B
+88,103.0,Axial,Series_B,14,19,11000000,B2B
+89,4.04651162791,Ayasdi,Series_A,163,309,10000000,
+90,2.24418604651,Ayasdi,Series_B,116,198,30600000,
+91,1.50714285714,B5M,Series_A,0,24,7100000,Online Rental
+92,5.71875,B5M,Series_B,37,78,16000000,Online Rental
+93,6.55882352941,BOKU,Series_A,9,0,13000000,
+94,inf,BOKU,Series_C,5,8,25000000,
+95,8.3,Backupify,Series_A,41,31,4500000,
+96,14.8461538462,Backupify,Series_B,48,71,5000000,
+97,6.96296296296,Backupify,Series_C,34,53,9000000,
+98,2.96875,Balihoo,Series_C,2,0,7000000,mHealth
+99,2.64788732394,Balluun,Series_A,19,65,3300000,B2B
+100,17.0,BandPage,Series_C,72,75,9250000,Virtualization
+101,209.0,Banjo,Series_A,8,18,5000000,Online Gaming
+102,0.708502024291,Baronova,Series_C,21,66,27300000,Advertising
+103,43.0,BaubleBar,Series_B,245,63,10000000,Fashion Tech
+104,2.67142857143,BayRu,Series_C,40,98,4000000,IT Management
+105,42.0,Beckon,Series_A,143,90,8000000,Marketing
+106,105.0,Become,Series_C,5,0,17500000,Software
+107,218.0,Become,Series_D,11,0,8000000,Software
+108,0.68085106383,Beepi,Series_A,69,63,5000000,
+109,2.05882352941,Bellabox,Series_A,82,36,1400000,E-Commerce
+110,5.28205128205,Bellabox,Series_B,51,20,2700000,E-Commerce
+111,inf,Belly,Series_A,55,49,2500000,
+112,inf,Belly,Series_B,14,42,10000000,
+113,0.37067209776,Betaworks,Series_A,5,0,7500000,
+114,1.96703296703,Betaworks,Series_B,45,33,20000000,
+115,2.01282051282,BetterCloud,Series_C,208,125,8600000,Visual Search
+116,28.5,Betterment,Series_A,4,23,3000000,Technology
+117,96.5,Betterment,Series_B,33,79,10000000,Technology
+118,102.0,Betterment,Series_C,133,111,32000000,Technology
+119,inf,Between,Series_A,197,115,3000000,Content
+121,5.05714285714,BigDoor,Series_C,25,104,5000000,Biotechnology
+122,187.0,Birchbox,Series_A,3,4,10500000,
+123,inf,Birchbox,Series_B,125,24,60000000,
+124,7.0,Bitly,Series_A,14,0,2000000,
+125,24.7142857143,Bitly,Series_B,14,30,10000000,
+126,0.845771144279,Bizible,Series_A,14,72,1700000,iPhone
+127,25.5,Bizo,Series_B,8,34,10000000,Real Time
+128,27.25,BlogHer,Series_B,8,0,5000000,E-Commerce
+129,40.4,BlogHer,Series_C,7,0,7000000,E-Commerce
+130,inf,BlogTalkRadio,Series_B,2,50,1936608,-
+131,5.5625,BloomSpot,Series_A,3,19,9000000,
+132,157.0,BloomSpot,Series_B,0,3,35000000,
+135,32.6666666667,Bluebox,Series_B,122,92,18000000,Advertising
+136,20.625,Bluestacks,Series_A,11,20,7600000,-
+137,0.279534109817,BodyShopBids,Series_B,17,101,10000000,Biotechnology
+139,3.54098360656,Booyah,Series_A,3,0,4500000,Apps
+140,219.0,Booyah,Series_B,7,0,5000000,Apps
+141,211.0,Booyah,Series_C,4,10,20000000,Apps
+142,0.209230769231,BountyJobs,Series_C,6,27,4800000,Curated Web
+143,0.227401129944,BountyJobs,Series_D,24,72,4500000,Curated Web
+144,38.0,Boxee,Series_A,2,0,4000000,
+145,170.0,Boxee,Series_B,6,0,6000000,
+146,1.40816326531,Boxfish,Series_A,2,7,3000000,Internet TV
+147,1.70434782609,Boxfish,Series_B,84,97,7000000,Internet TV
+148,10.1111111111,Brammo,Series_B,7,57,28000000,Business Services
+149,13.3333333333,Brammo,Series_C,61,129,25000000,Business Services
+150,19.1111111111,Brammo,Series_D,174,134,9500000,Business Services
+151,1.97894736842,Brandwatch,Series_A,16,50,1500000,E-Commerce
+152,50.0,Brandwatch,Series_B,182,135,22000000,E-Commerce
+153,inf,Breather,Series_A,144,94,6000000,Mobile Security
+154,inf,Bright,Series_A,21,68,6000000,Search
+155,inf,Bright,Series_B,69,53,14000000,Search
+156,1.54285714286,BrightScope,Series_B,4,0,2000000,Finance
+157,2.67142857143,BrightScope,Series_C,7,104,3000000,Finance
+158,inf,Brighter,Series_A,13,30,5000000,Content Marketing
+159,inf,Brighter,Series_B,18,30,8000000,Content Marketing
+160,inf,Brighter,Series_C,110,81,15000000,Content Marketing
+161,1.21739130435,Brightpearl,Series_B,43,99,8000000,
+162,0.779527559055,Brightpearl,Series_C,74,81,10000000,
+163,2.66666666667,Bromium,Series_C,102,158,40000000,Advertising
+166,1.5,BuyVIP,Series_C,5,0,20000000,Online Shopping
+167,27.4285714286,BuyWithMe,Series_A,1,31,5500000,Productivity Software
+168,5.83870967742,BuyWithMe,Series_B,2,14,16000000,Productivity Software
+169,56.6666666667,BuyWithMe,Series_C,11,17,10000000,Productivity Software
+170,27.2857142857,BuzzFeed,Series_B,38,47,8000000,
+171,inf,BuzzFeed,Series_D,134,56,19300000,
+172,8.90909090909,Cabify,Series_A,136,144,8000000,Fraud Detection
+174,70.3333333333,Capriza,Series_A,6,35,10500000,Clean Technology
+175,30.6666666667,Capriza,Series_B,66,34,13000000,Clean Technology
+176,1.13194444444,Captricity,Series_A,61,127,2400000,Digital Marketing
+177,0.848039215686,Captricity,Series_B,91,129,10000000,Digital Marketing
+178,inf,Cardiox,Series_B,7,0,786300,Semiconductors
+179,4.02,Cash4Gold,Series_B,24,0,20000000,Finance
+180,0.302816901408,Catavolt,Series_A,2,63,1500000,Enterprise Software
+181,2.0,Causata,Series_B,4,54,11000000,Social Media
+182,9.85714285714,Causes,Series_A,4,0,2350000,
+183,inf,Causes,Series_C,9,41,9000000,
+184,12.9375,ChaCha,Series_C,7,0,14000000,Electric Vehicles
+185,70.6666666667,ChaCha,Series_D,2,1,16000000,Electric Vehicles
+186,106.5,Chango,Series_A,5,11,1400000,Kids
+187,202.0,Chango,Series_B,6,33,4250000,Kids
+188,1.11764705882,Channelinsight,Series_D,3,13,3300000,SaaS
+189,1.4696969697,Chargebee,Series_A,188,109,800000,IaaS
+191,3.41935483871,Chartboost,Series_B,164,183,19000000,Bitcoin
+192,0.337662337662,ChipIn,Series_B,6,0,5000000,Curated Web
+194,1.06369426752,Chunyu,Series_A,3,11,3000000,Health Care
+195,1.55833333333,Chunyu,Series_B,3,7,1000000,Health Care
+196,inf,Circle,Series_A,113,92,9000000,-
+197,inf,Circle,Series_B,137,71,17000000,-
+198,2.98039215686,CircleUp,Series_A,98,104,7500000,Marketplaces
+199,108.5,ClassPass,Series_A,242,82,12000000,
+200,0.908045977011,ClearSlide,Series_B,14,62,28000000,Advertising
+201,2.40845070423,ClearSlide,Series_C,111,138,50000000,Advertising
+202,inf,Clever,Series_A,130,69,10300000,
+203,inf,Clever,Series_B,238,105,30000000,
+204,19.1818181818,Clicker,Series_A,10,0,8000000,E-Commerce
+205,51.5,Clicker,Series_B,6,10,11000003,E-Commerce
+206,0.705627705628,Clickfox,Series_C,1,19,17892602,Software
+207,1.608,Clinicient,Series_C,142,122,15000000,Software
+208,3.9375,CloudBees,Series_A,58,94,4000000,Technology
+209,7.33333333333,CloudBees,Series_B,77,174,10500000,Technology
+210,9.0,CloudBees,Series_C,160,104,11200000,Technology
+211,51.75,CloudFlare,Series_B,13,46,20000000,
+212,3.01785714286,CloudMade,Series_B,38,74,9500000,Automotive
+213,0.610169491525,CloudOn,Series_A,2,1,8000000,Location Based Services
+214,2.828125,CloudPhysics,Series_B,66,206,10000000,Collaborative Consumption
+215,4.7027027027,CloudPhysics,Series_C,87,151,15000000,Collaborative Consumption
+219,1.91954022989,Cloudian,Series_A,12,38,11600000,Wireless
+220,2.5243902439,Cloudian,Series_B,24,27,5100000,Wireless
+221,1.59813084112,Cloudian,Series_C,41,102,24000000,Wireless
+222,1.23943661972,Cloudscaling,Series_A,43,151,4000000,PaaS
+223,0.835106382979,Clustrix,Series_B,34,26,12000000,
+224,2.12643678161,Clustrix,Series_C,28,49,16500000,
+225,2.15584415584,Coalfire,Series_B,36,22,3600000,Security
+229,4.87179487179,Colorescience,Series_A,13,10,10000000,E-Commerce
+230,7.34615384615,Colorescience,Series_B,93,59,15000000,E-Commerce
+231,2.01282051282,CommonFloor,Series_C,17,38,7500000,
+232,1.38571428571,ComparaOnline,Series_A,7,71,5000000,Personal Finance
+233,1.07189542484,ComparaOnline,Series_B,26,79,11000000,Personal Finance
+234,inf,Comprehend,Series_A,124,96,8400000,Families
+235,inf,Comprehend,Series_B,202,96,21000000,Families
+236,inf,Conductor,Series_C,39,108,20000000,Android
+237,inf,ConnectEdu,Series_C,4,0,8200000,Curated Web
+238,inf,ConnectEdu,Series_D,13,32,7000000,Curated Web
+239,0.182489451477,Connotate,Series_A,4,4,5250000,Data Mining
+241,5.64516129032,Conviva,Series_C,8,44,15000000,
+242,15.5384615385,Conviva,Series_D,23,74,15000000,
+243,5.18604651163,Cooliris,Series_C,13,14,9600000,
+244,208.0,CorNova,Series_B,3,22,2500000,Biotechnology
+245,1.35384615385,Coraid,Series_B,7,21,25000000,Web Hosting
+246,1.16923076923,Coraid,Series_C,5,102,50000000,Web Hosting
+247,2.34482758621,Correx,Series_B,23,70,2800000,Health Care
+248,0.717842323651,Cotap,Series_A,3,35,5500000,College Recruiting
+249,1.79611650485,Covestor,Series_B,53,74,12750000,
+256,0.450097847358,Criteo,Series_B,1,1,10400000,
+257,4.44117647059,Criteo,Series_C,6,31,6360000,
+258,5.84375,Criteo,Series_D,48,107,40000000,
+259,1.88659793814,Crittercism,Series_A,39,50,5500000,
+260,3.61403508772,Crittercism,Series_B,42,72,12000000,
+261,1.05365853659,CrossLoop,Series_B,15,0,6000000,Curated Web
+262,3.50877192982,CrossLoop,Series_C,4,30,1500000,Curated Web
+263,1.30303030303,CrowdFlower,Series_B,55,77,7000000,Handmade
+264,6.9,CrowdFlower,Series_C,144,143,12500000,Handmade
+265,1.58474576271,CrowdTwist,Series_A,31,148,6000000,Web Hosting
+266,39.75,Crowdcube,Series_B,101,119,8000000,Business Services
+267,0.665441176471,Crowdpark,Series_B,11,79,6000000,Gambling
+268,22.25,Crowdtap,Series_B,92,104,5000000,Loans
+270,17.6363636364,CustomMade,Series_A,14,35,2100000,
+271,23.1111111111,CustomMade,Series_B,5,34,4000000,
+272,67.3333333333,CustomMade,Series_C,39,65,18000000,
+273,1.72357723577,D2S,Series_B,3,0,9000000,Commercial Real Estate
+274,2.57692307692,DHgate,Series_C,2,0,2000000,E-Commerce
+275,8.08333333333,DHgate,Series_D,52,22,16000000,E-Commerce
+276,0.355029585799,DNAnexus,Series_B,30,64,15000000,
+277,2.42465753425,DNAnexus,Series_C,148,166,15000000,
+278,0.623794212219,DREAMLINES,Series_A,5,18,2750000,PaaS
+279,0.851851851852,DREAMLINES,Series_B,19,24,9750000,PaaS
+280,0.855,DREAMLINES,Series_C,23,14,25000000,PaaS
+282,2.02830188679,Dailymotion,Series_B,9,0,34000000,
+283,53.25,Dailymotion,Series_C,3,0,25000000,
+284,0.580985915493,DataGravity,Series_B,85,114,30000000,Wireless
+285,0.874396135266,DataPop,Series_A,6,30,1700000,
+286,0.477653631285,DataPop,Series_B,12,50,7000000,
+287,3.0,DataSift,Series_A,58,82,6000000,
+288,12.2352941176,DataSift,Series_B,87,160,15000000,
+289,10.3684210526,DataSift,Series_C,138,122,42000000,
+290,0.810526315789,DataSphere,Series_C,13,10,10000000,Software
+291,0.668103448276,DataSphere,Series_D,5,17,8000000,Software
+292,0.942583732057,Datadog,Series_A,47,77,6200000,Online Dating
+293,1.51219512195,Datadog,Series_B,75,135,15000000,Online Dating
+294,2.57142857143,Datalogix,Series_C,92,71,45000000,
+295,0.604501607717,Datameer,Series_B,62,75,9300000,SEO
+296,5.63636363636,Datameer,Series_C,46,137,6000000,SEO
+297,3.79545454545,Datameer,Series_D,160,143,19000000,SEO
+298,5.26470588235,Dayima,Series_A,19,15,1000000,Enterprise Software
+299,7.17391304348,Dayima,Series_B,57,22,10000000,Enterprise Software
+300,6.0,Dayima,Series_C,103,20,30000000,Enterprise Software
+301,7.82608695652,Daylife,Series_C,14,0,4000000,Home Owners
+302,4.1914893617,DealsAndYou,Series_B,4,12,17000000,Curated Web
+303,inf,Decide,Series_A,5,38,2500000,-
+304,inf,Decide,Series_B,18,37,6000000,-
+305,inf,Decisyon,Series_A,36,84,15000000,Semiconductors
+306,inf,Decisyon,Series_B,181,99,22000000,Semiconductors
+307,1.6393442623,Deliveroo,Series_A,74,111,4600000,Biotechnology
+308,10.5,Descomplica,Series_A,9,30,1500000,Computer Vision
+309,24.8888888889,Descomplica,Series_B,142,81,5000000,Computer Vision
+310,1.04069767442,DeviantArt,Series_A,1,1,3500000,Graphics
+311,inf,DeviantArt,Series_B,44,21,10000000,Graphics
+312,inf,Digg,Series_C,4,0,28700000,
+313,inf,Digg,Series_D,0,26,5000000,
+314,3.51612903226,Dimdim,Series_B,1,0,6000000,Cloud Data Services
+315,1.12631578947,Disqus,Series_B,6,0,500000,
+316,105.0,Disqus,Series_C,14,17,10000000,
+317,13.9333333333,Divante,Series_A,55,82,850000,B2B
+318,3.51020408163,Divante,Series_B,111,60,2300000,B2B
+319,2.76470588235,Divergence,Series_C,6,0,11800000,Small and Medium Businesses
+320,inf,Divide,Series_A,18,82,11000000,Startups
+321,inf,Divide,Series_B,51,92,12000000,Startups
+322,3.50980392157,DogVacay,Series_A,21,48,6000000,
+323,10.1333333333,DogVacay,Series_B,27,30,15000000,
+324,3.56451612903,DoorDash,Series_A,186,53,17300000,
+325,3.60714285714,DotCloud,Series_A,21,82,10000000,
+326,1.25954198473,Doximity,Series_A,19,48,10800000,
+327,4.91666666667,Doximity,Series_C,275,185,54000000,
+328,2.2619047619,Doxo,Series_B,45,56,10000000,Crowdsourcing
+329,41.2,DramaFever,Series_B,19,69,4500000,Specialty Foods
+330,21.0,Drawbridge,Series_A,19,47,6500000,Mobile
+331,10.3,DriverSide,Series_A,3,0,3000000,Cloud Infrastructure
+332,70.0,DriverSide,Series_B,4,0,5300000,Cloud Infrastructure
+333,inf,DriverSide,Series_C,4,10,2300000,Cloud Infrastructure
+334,5.25,DueDil,Series_A,30,52,5000000,Data Visualization
+335,7.25925925926,DueDil,Series_B,167,147,17000000,Data Visualization
+336,68.6666666667,Duetto,Series_A,67,168,10100000,Small and Medium Businesses
+337,64.6666666667,Duetto,Series_B,159,110,21000000,Small and Medium Businesses
+339,1.64885496183,Duolingo,Series_A,32,41,3300000,Mobile Video
+340,23.2857142857,Duolingo,Series_B,21,20,15000000,Mobile Video
+341,215.0,Duolingo,Series_C,98,24,20000000,Mobile Video
+342,14.4285714286,Dwolla,Series_A,8,25,1000000,Online Shopping
+343,37.4,Dwolla,Series_B,15,45,5000000,Online Shopping
+344,30.5714285714,Dwolla,Series_C,95,115,16500000,Online Shopping
+345,22.4444444444,Dwolla,Series_D,274,155,9700000,Online Shopping
+346,2.46153846154,Dxterity,Series_B,1,3,790000,Biotechnology
+349,0.214473684211,ESTECH,Series_D,2,6,8500000,Mobile Security
+354,2.0,Echonest,Series_C,52,74,7000000,Big Data Analytics
+355,3.46,Echonest,Series_D,29,81,17300000,Big Data Analytics
+356,0.258297258297,Edgeware,Series_B,3,0,8000000,Software
+357,103.5,Edmodo,Series_B,62,55,15000000,
+358,211.0,Edmodo,Series_D,229,114,30000000,
+359,14.6,Ektron,Series_C,53,109,4500000,Enterprise Software
+362,2.22857142857,EndPlay,Series_C,0,45,21500000,Semiconductors
+363,0.329032258065,Enecsys,Series_B,3,21,41000000,Public Transportation
+364,1.675,EnergyHub,Series_B,4,30,14500000,
+365,0.449612403101,Enevo,Series_A,74,85,8000000,Mobile Health
+368,1.94936708861,EnglishCentral,Series_C,31,21,2000000,Beauty
+369,9.81818181818,Engrade,Series_A,4,32,3000000,Subscription Businesses
+370,11.7,Engrade,Series_B,101,58,5000000,Subscription Businesses
+371,2.07142857143,Etouches,Series_B,8,80,7800000,Finance
+372,1.68085106383,Etsy,Series_C,3,1,3250000,
+373,217.0,Etsy,Series_D,3,0,27000000,
+374,inf,Euclid,Series_A,0,23,5800000,3D Printing
+375,178.0,Euclid,Series_B,46,74,17300000,3D Printing
+376,5.55,EverTrue,Series_A,108,91,5250000,Android
+377,5.07894736842,EverTrue,Series_B,197,107,8000000,Android
+378,0.345811051693,EveryScape,Series_C,14,1,6000000,Cleaning
+379,0.899038461538,EverythingMe,Series_C,17,93,25000000,Health Care
+381,0.270392749245,Exit41,Series_A,2,2,6000000,Android
+384,197.0,EyeEm,Series_A,38,13,5000000,Health Care
+387,inf,Fancy,Series_A,5,11,6000000,SaaS
+388,inf,Fancy,Series_B,5,17,10000000,SaaS
+389,inf,Fancy,Series_C,20,36,26400000,SaaS
+390,3.4,Fanduel,Series_B,9,65,4000000,Human Resources
+391,74.0,Fanduel,Series_C,95,57,11000000,Human Resources
+392,205.0,Fanduel,Series_D,170,95,70000000,Human Resources
+393,0.798319327731,FarmLink,Series_B,76,127,20000000,Agriculture
+394,7.6,FeeX,Series_A,34,19,3000000,Performance Marketing
+395,3.91304347826,FeeX,Series_B,116,71,6500000,Performance Marketing
+396,0.856557377049,Fiksu,Series_A,4,10,5500000,Private Equity 
+397,1.34615384615,Finestrella,Series_B,4,8,13800000,Analytics
+398,29.0,FireBlade,Series_B,2,29,1500000,-
+399,1.47706422018,FireHost,Series_A,13,16,2000000,Finance
+400,2.36144578313,FireHost,Series_D,42,72,12000000,Finance
+401,1.62393162393,FiscalNote,Series_A,260,198,7000000,Small and Medium Businesses
+402,3.3125,FiscalNote,Series_B,393,190,10000000,Small and Medium Businesses
+403,inf,Fitbit,Series_D,29,32,43000000,Shoes
+404,14.8571428571,Five9,Series_C,1,10,8600000,Video Games
+405,4.16666666667,Five9,Series_D,25,37,22000000,Video Games
+406,112.5,FiveStars,Series_A,34,97,14500000,
+407,190.0,FiveStars,Series_B,154,158,26000000,
+408,1.02298850575,Flashnotes,Series_A,107,89,3600000,Social Network Media
+409,4.46341463415,FlightCar,Series_B,108,60,13500000,
+410,61.6666666667,Flite,Series_C,62,51,23000000,Health Care
+411,0.788321167883,Flixster,Series_B,1,0,5000000,
+412,71.6666666667,Flock,Series_D,4,0,15000000,Risk Management
+413,inf,Flurry,Series_B,10,17,7000000,
+414,208.0,Flurry,Series_C,5,19,15000000,
+415,inf,Flurry,Series_D,12,31,25000000,
+416,0.344902386117,Flypaper,Series_B,11,2,3500000,Software
+417,69.0,Focus,Series_C,3,0,12170000,E-Commerce
+418,0.80198019802,ForgeRock,Series_A,13,158,7000000,Advertising
+419,1.71428571429,ForgeRock,Series_B,23,133,15000000,Advertising
+420,2.75641025641,Freewheel,Series_C,1,0,12000000,Internet Marketing
+421,7.78571428571,Friendster,Series_D,14,0,20000000,
+422,3.63461538462,FullContact,Series_A,44,114,7000000,Edtech
+423,0.103590347263,FunPlus,Series_B,23,41,74000000,Biotechnology
+424,54.75,Fundera,Series_A,205,85,3400000,Mobile Advertising
+425,1.73737373737,FutureAdvisor,Series_A,33,42,5000000,Games
+426,0.890547263682,FutureAdvisor,Series_B,96,67,15500000,Games
+427,57.5,Fynanz,Series_A,0,8,6500000,Location Based Services
+428,50.75,Fynanz,Series_B,17,25,12500000,Location Based Services
+430,2.89090909091,Gaikai,Series_C,13,44,30000000,Messaging
+431,1.08724832215,Gainsight,Series_B,72,81,20000000,Databases
+432,1.35833333333,Gainsight,Series_C,135,92,25000000,Databases
+433,1.46043165468,Gamervision,Series_C,21,28,1500000,Games
+434,0.833333333333,Games2Win,Series_B,7,13,6000000,-
+435,3.40625,Garlik,Series_B,3,1,11950000,Security
+436,219.0,Garlik,Series_C,4,0,2340000,Security
+437,188.0,Gather,Series_D,14,0,5300000,Local Businesses
+438,8.39130434783,Gemvara,Series_D,12,77,25000000,Predictive Analytics
+442,43.0,Geni,Series_C,9,13,5000000,
+443,0.440922190202,GenoLogics,Series_D,5,43,8000000,Biotechnology
+444,11.5882352941,GetJar,Series_B,3,19,11000000,Mobile Software Tools
+445,19.625,GetJar,Series_C,8,14,25000000,Mobile Software Tools
+448,18.2222222222,Getaround,Series_A,7,49,3400000,
+449,14.5454545455,Getaround,Series_B,36,60,13900000,
+450,inf,Getglue,Series_C,0,0,6000000,Virtualization
+451,inf,Getglue,Series_D,4,2,12000000,Virtualization
+452,2.73611111111,Gigaom,Series_B,5,0,1000000,Cloud Infrastructure
+453,152.0,Gigaom,Series_D,76,80,2500000,Cloud Infrastructure
+454,2.11235955056,Gigwalk,Series_A,30,60,6000000,
+455,1.77981651376,Gigwalk,Series_B,71,45,10000000,
+456,40.8,Gild,Series_A,31,44,9100000,Games
+457,205.0,Gild,Series_B,63,49,13500000,Games
+458,3.43548387097,Glassdoor,Series_B,6,0,6500000,
+459,66.6666666667,Glassdoor,Series_C,28,50,12000000,
+460,201.0,Glassdoor,Series_D,84,98,20000000,
+461,4.73333333333,Glyde,Series_B,2,3,21000000,Parking
+462,7.06896551724,Glympse,Series_B,11,22,7500000,Web Hosting
+463,18.7777777778,Gogobot,Series_C,103,43,20000000,
+466,8.61904761905,Goodguide,Series_A,26,43,3730000,Open Source
+467,2.28767123288,Goodguide,Series_B,26,2,5500000,Open Source
+469,0.522935779817,GreenSQL,Series_B,15,50,5900000,E-Commerce
+470,202.0,Greenling,Series_B,89,105,5200000,Software
+471,1.45762711864,Grockit,Series_C,29,49,7000000,
+472,3.22448979592,Grockit,Series_D,23,69,7000000,
+474,10.0,Grovo,Series_A,210,77,5500000,Predictive Analytics
+475,3.87037037037,Grovo,Series_B,244,93,15000000,Predictive Analytics
+476,14.6153846154,GrubHub,Series_D,7,37,20000000,
+477,1.02666666667,Guidespark,Series_B,56,46,15000000,-
+478,1.22891566265,Gutcheck,Series_A,5,18,2000000,Market Research
+479,5.72222222222,Gutcheck,Series_B,281,139,4000000,Market Research
+480,29.4285714286,Hailo,Series_A,32,45,17000000,Mobile Analytics
+481,40.0,Hailo,Series_B,45,52,30600000,Mobile Analytics
+482,0.579617834395,HarQen,Series_A,1,13,2700000,Staffing Firms
+483,0.5,HarQen,Series_B,6,33,4300000,Staffing Firms
+486,15.6923076923,HealthTap,Series_A,9,18,11500000,Task Management
+487,46.25,HealthTap,Series_B,19,42,24000000,Task Management
+491,10.45,Hedvig,Series_B,131,78,10000000,Software
+492,0.807291666667,Heliatek,Series_C,45,43,22860000,Big Data Analytics
+493,14.1333333333,HelloFresh,Series_B,20,50,10000000,
+494,15.6923076923,HelloFresh,Series_C,27,39,7500000,
+495,22.4444444444,HelloFresh,Series_D,50,39,50000000,
+496,0.462686567164,HelloWallet,Series_A,14,17,3600000,Loyalty Programs
+497,4.44444444444,Hightail,Series_D,5,15,15000000,
+498,7.47619047619,Hipmunk,Series_A,14,32,4200000,
+499,6.12903225806,Hipmunk,Series_C,85,39,20000000,
+500,2.89655172414,HireVue,Series_C,26,62,22000000,
+501,6.36666666667,HireVue,Series_D,95,90,25000000,
+502,3.57777777778,Homejoy,Series_B,81,44,38000000,
+503,0.555555555556,HoneyBook,Series_A,115,57,10000000,Marketing
+504,0.504885993485,HookLogic,Series_A,2,19,9500000,
+505,inf,Hopper,Series_A,5,34,8000000,Social Media
+506,inf,Hopper,Series_B,20,56,12000000,Social Media
+507,0.429333333333,Hotelicopter,Series_B,11,37,1500000,Networking
+508,3.85,HourlyNerd,Series_B,196,94,7800000,SaaS
+511,3.80769230769,HouseTrip,Series_A,11,19,2700000,Logistics
+512,12.625,HouseTrip,Series_B,0,24,17000000,Logistics
+513,17.7272727273,HouseTrip,Series_C,31,74,40000000,Logistics
+514,101.0,Huddle,Series_B,7,33,10200000,Mobile Video
+515,43.4,Huddler,Series_A,17,0,5000000,SaaS
+516,inf,Huddler,Series_B,5,30,17000000,SaaS
+517,1.72072072072,Hupu,Series_C,57,67,16000000,-
+518,inf,IFTTT,Series_B,29,12,30000000,Publishing
+520,43.2,IMVU,Series_D,4,4,10000000,Optimization
+521,0.62783171521,Idbyme,Series_B,75,33,4500000,Fashion
+522,22.875,IdeaPaint,Series_C,34,45,5000000,Technology
+523,inf,Identified,Series_A,13,37,1500000,
+524,inf,Identified,Series_B,14,94,21000000,
+525,4.45454545455,Idleair,Series_B,1,94,3000000,Clean Technology
+526,0.86432160804,Ifbyphone,Series_B,14,45,8000000,-
+527,3.45614035088,Ifbyphone,Series_D,115,104,9000000,-
+528,103.5,InVision,Series_B,173,75,21000000,Software
+529,inf,Indiegogo,Series_A,10,106,15000000,Social Commerce
+530,inf,Indiegogo,Series_B,191,131,40000000,Social Commerce
+531,0.13606557377,InfoScout,Series_A,17,151,5000000,Curated Web
+532,0.982035928144,InfoScout,Series_B,128,111,16000000,Curated Web
+533,inf,Inneractive,Series_B,22,41,5000000,App Marketing
+534,inf,Inneractive,Series_C,73,65,6000000,App Marketing
+535,1.68,InsightSquared,Series_A,6,62,4500000,
+536,2.66666666667,InsightSquared,Series_B,50,66,8000000,
+537,9.33333333333,Inspirato,Series_B,4,45,15500000,Enterprise Software
+538,inf,Instantly,Series_B,22,18,3000000,MMO Games
+539,inf,Instantly,Series_C,9,22,10250000,MMO Games
+540,inf,Instantly,Series_D,89,83,15000000,MMO Games
+542,0.226490066225,Instructure,Series_A,1,3,1100000,Social Travel
+543,4.58139534884,Instructure,Series_B,15,91,8000000,Social Travel
+544,10.0588235294,Instructure,Series_D,60,81,30000000,Social Travel
+545,0.788461538462,Intalio,Series_D,5,30,8800000,Crowdsourcing
+546,101.0,Integrate,Series_A,10,15,4250000,Web CMS
+547,inf,Integrate,Series_B,14,57,11000000,Web CMS
+549,210.0,Intercom,Series_A,167,92,6000000,Finance Technology
+550,198.0,Intercom,Series_B,200,61,23000000,Finance Technology
+551,0.185840707965,Intermolecular,Series_D,5,0,20000000,Testing
+552,0.770428015564,Inventables,Series_A,27,45,2000000,Social Media
+553,1.66666666667,Inventables,Series_B,53,61,3000000,Social Media
+554,2.1125,Invincea,Series_C,43,146,16000000,Enterprise Security
+555,17.0,Invoca,Series_B,18,60,4000000,Enterprise Software
+556,68.0,Invoca,Series_C,166,165,20000000,Enterprise Software
+557,5.64285714286,Involver,Series_B,11,29,1600000,Mobile Advertising
+559,2.0,IronKey,Series_B,8,34,22000000,SEO
+560,inf,JOOR,Series_A,0,4,2250000,Big Data Analytics
+561,inf,JOOR,Series_B,1,7,3300000,Big Data Analytics
+562,inf,JOOR,Series_C,6,31,14600000,Big Data Analytics
+564,inf,Jana,Series_B,46,48,15000000,Application Platforms
+565,210.0,Jaunt,Series_A,93,74,7200000,Enterprise Security
+566,204.0,Jaunt,Series_B,127,85,27800000,Enterprise Security
+567,1.03980099502,Jaxtr,Series_B,2,0,10000000,Oem
+568,8.2,Jelastic,Series_B,44,115,2000000,Software
+569,4.28947368421,Jelastic,Series_C,58,87,3500000,Software
+570,28.1428571429,JibJab,Series_C,19,17,7500000,Cloud Infrastructure
+571,42.6,Jiff,Series_A,10,30,7500000,
+572,70.6666666667,Jiff,Series_B,182,60,18300000,
+575,0.498432601881,Jivox,Series_C,34,49,5800000,Cloud Data Services
+576,1.1968503937,Jobaline,Series_B,17,20,7000000,Career Management
+577,5.19047619048,Jobster,Series_D,4,0,7000000,Hardware + Software
+578,8.32,Joyus,Series_B,56,57,11500000,Retail Technology
+579,1.35714285714,Justworks,Series_A,85,61,6000000,Consumer 
+580,3.73076923077,Kaiam,Series_B,0,16,5300000,
+581,2.01041666667,Kaiam,Series_C,1,15,4000000,
+582,inf,Kantox,Series_A,46,76,8500000,Tutoring
+583,4.47222222222,Kapitall,Series_A,5,8,7300000,Biotechnology
+584,2.32,Kapitall,Series_B,75,47,13000000,Biotechnology
+585,2.89393939394,Kapost,Series_B,48,133,1500000,Kids
+586,11.1052631579,Kapost,Series_C,100,133,5600000,Kids
+587,3.43859649123,Kareo,Series_D,1,18,10000000,
+588,1.30769230769,Kewego,Series_C,3,4,6200000,Software
+589,3.30357142857,Kidaptive,Series_A,87,77,1350000,Hotels
+590,2.35802469136,Kidaptive,Series_B,86,102,10100000,Hotels
+591,3.56,Kiip,Series_A,16,41,4000000,Advertising Platforms
+592,13.3076923077,Kiip,Series_B,46,111,11000000,Advertising Platforms
+593,2.5641025641,Kimbia,Series_B,2,23,4000000,Nonprofits
+594,31.5714285714,Kindling,Series_B,38,70,2300000,Technology
+595,5.30303030303,Kinvey,Series_A,42,92,5000000,Science
+596,3.74418604651,Kinvey,Series_B,183,152,10800000,Science
+597,77.0,Kissmetrics,Series_B,140,76,7000000,Marketplaces
+598,97.0,Koding,Series_A,16,14,7500000,Mobile Advertising
+599,4.57575757576,Kontagent,Series_A,22,20,4500000,Sales Automation
+600,2.27272727273,Kontera,Series_C,5,0,15500000,
+601,28.8571428571,Kontiki,Series_B,6,19,10700000,B2B
+602,56.5,Kontiki,Series_C,8,36,5100000,B2B
+603,0.298181818182,Kosmix,Series_D,4,0,20000000,
+604,inf,Krossover,Series_A,24,94,4600000,Databases
+605,inf,Krossover,Series_B,80,45,6000000,Databases
+607,0.501557632399,KuponGid,Series_A,11,30,500000,E-Commerce
+608,0.983146067416,KuponGid,Series_B,12,33,100000,E-Commerce
+609,3.59016393443,Lagou,Series_B,40,15,25000000,-
+610,11.0555555556,Lastline,Series_A,30,42,900000,Ticketing
+611,12.8,Lastline,Series_B,43,55,10000000,Ticketing
+612,3.16417910448,Lavante,Series_C,4,9,8000000,-
+613,inf,Leaf,Series_B,63,35,20000000,Hardware + Software
+615,0.450424929178,Leapset,Series_B,8,27,25000000,Advertising
+616,2.58823529412,LearnVest,Series_A,12,73,4430000,Enterprise Software
+617,15.1818181818,LearnVest,Series_B,24,50,19000000,Enterprise Software
+618,30.0,LearnVest,Series_C,78,74,16500000,Enterprise Software
+619,21.5555555556,LearnVest,Series_D,158,121,28000000,Enterprise Software
+620,1.16428571429,Lemko,Series_C,2,12,9000000,Mobile
+621,5.0487804878,Lendio,Series_B,25,42,4500000,Gamification
+622,1.36036036036,Lengow,Series_B,7,60,1800000,Tracking
+623,16.0,LevelUp,Series_A,1,0,4000000,Marketplaces
+624,inf,LevelUp,Series_B,11,69,15000000,Marketplaces
+625,inf,LevelUp,Series_C,23,51,12000000,Marketplaces
+626,inf,LevelUp,Series_D,13,42,9000000,Marketplaces
+627,2.5,Librato,Series_A,130,117,3800000,
+628,3.06,Libredigital,Series_C,19,25,8100000,Batteries
+629,3.68,Life360,Series_A,3,31,5500000,
+630,15.6666666667,Life360,Series_B,45,39,15000000,
+631,17.3333333333,Life360,Series_C,72,26,50000000,
+632,0.157849829352,LifeBond,Series_D,43,45,12500000,Health Care
+633,inf,Light,Series_A,134,74,9700000,Video Streaming
+634,1.53543307087,LimeRoad,Series_B,52,47,15000000,Video Games
+635,6.29411764706,Limeade,Series_A,4,0,3000000,Health and Wellness
+636,104.0,Limeade,Series_B,62,41,5000000,Health and Wellness
+639,0.356673960613,LiquidHub,Series_B,9,21,53000000,Biotechnology
+640,3.34545454545,LiquidPlanner,Series_B,78,114,8000000,Software
+642,0.672064777328,LiveIntent,Series_B,7,47,8000000,Banking
+643,4.63157894737,LiveIntent,Series_C,167,87,20000000,Banking
+644,0.155066079295,LiveRail,Series_A,2,3,3500000,Online Video Advertising
+645,1.26162790698,LiveU,Series_C,10,46,11000000,Collaborative Consumption
+646,4.32558139535,LiveU,Series_D,18,74,27000000,Collaborative Consumption
+647,2.65853658537,Livemocha,Series_A,3,1,6000000,Consumer 
+648,11.8888888889,Livemocha,Series_B,10,1,8000000,Consumer 
+649,25.375,Livemocha,Series_C,8,15,5000000,Consumer 
+652,4.51162790698,Localytics,Series_B,136,126,16000000,
+653,inf,Lockerz,Series_C,9,26,36000000,Travel
+654,0.497023809524,LogMeIn,Series_C,2,0,10000000,Enterprise Software
+655,2.42857142857,Loggly,Series_A,55,111,9870000,Mobile Advertising
+656,2.21348314607,Loggly,Series_B,66,38,8000000,Mobile Advertising
+657,4.84615384615,Loggly,Series_C,239,103,15000000,Mobile Advertising
+658,0.980392156863,Loopt,Series_B,0,0,12000000,
+659,inf,Loopt,Series_C,2,16,15000000,
+660,97.5,Lot18,Series_C,1,36,30000000,Semiconductors
+661,1.32,Lotame,Series_C,11,25,11000000,Jewelry
+662,1.25547445255,Lotame,Series_D,53,115,15000000,Jewelry
+663,inf,Lucid,Series_A,83,43,1500000,Hardware + Software
+664,inf,Lucid,Series_B,100,40,8200000,Hardware + Software
+665,4.06666666667,Lucidworks,Series_C,76,71,10000000,Enterprise Search
+666,2.54545454545,Lucidworks,Series_D,210,239,8000000,Enterprise Search
+667,15.2857142857,Luminal,Series_A,107,151,2700000,Software
+668,7.89655172414,Luminal,Series_B,71,88,10000000,Software
+669,5.72972972973,Luminate,Series_B,19,15,12000000,Software
+670,inf,Lyst,Series_A,33,39,5000000,
+671,106.5,Lyst,Series_B,236,102,14000000,
+672,0.196382428941,Lytro,Series_A,4,10,50000000,Social Travel
+673,96.5,MUBI,Series_C,29,34,2400000,-
+674,inf,MUBI,Series_D,30,110,15000000,-
+675,43.0,MUJIN,Series_B,32,7,6000000,Robotics
+676,0.822834645669,Macheen,Series_A,0,1,2750000,Online Video Advertising
+678,1.51401869159,Madvertise,Series_B,11,56,10000000,Mobile Advertising
+679,188.0,Magisto,Series_C,44,36,13000000,Travel
+680,inf,Magnetic,Series_A,8,13,4000000,Teenagers
+681,12.1111111111,Mahalo,Series_B,15,0,16000000,Mobile Advertising
+682,0.219827586207,MarkLogic,Series_D,7,0,12500000,Social Commerce
+683,2.66666666667,Mashery,Series_C,12,11,5500000,Apps
+684,6.2,Mashery,Series_D,20,96,11000000,Apps
+685,13.0,Massdrop,Series_A,217,69,6500000,Real Estate
+686,1.88043478261,MasteryConnect,Series_A,105,111,4500000,
+687,1.61607142857,Mavenlink,Series_C,40,38,7000000,Web CMS
+688,5.62857142857,Maxta,Series_A,32,63,10000000,Online Shopping
+689,1.76288659794,Maxta,Series_B,54,106,25000000,Online Shopping
+691,2.01176470588,Maxymiser,Series_B,50,43,12000000,Personalization
+692,0.850241545894,Medialets,Series_A,38,0,4000000,
+693,inf,Medivo,Series_A,5,57,7000000,Communities
+694,inf,Medivo,Series_B,13,74,15000000,Communities
+695,9.4347826087,Meebo,Series_B,5,0,9000000,Teachers
+696,19.7272727273,Meebo,Series_C,7,0,25000000,Teachers
+697,104.0,Meebo,Series_D,5,17,27500000,Teachers
+698,72.3333333333,Meetup,Series_D,14,0,7500000,
+699,2.05882352941,MemSQL,Series_A,52,87,5000000,Personal Finance
+700,4.11320754717,Memento,Series_D,10,0,10000000,Design
+701,0.265238879736,Memeo,Series_B,1,2,8100000,Flash Storage
+702,0.269470404984,Memeo,Series_C,2,2,3000000,Flash Storage
+703,3.1320754717,Mendix,Series_A,3,102,13000000,Cloud Infrastructure
+704,9.6875,Mendix,Series_B,151,157,25000000,Cloud Infrastructure
+706,4.38,Mevio,Series_C,0,0,15000000,
+707,0.641095890411,Mig33,Series_B,5,0,13500000,Marketplace Lender
+708,18.1818181818,Mig33,Series_C,8,7,8900000,Marketplace Lender
+709,4.97058823529,Mimecast,Series_C,5,74,62000000,Software
+710,0.401360544218,MindMixer,Series_A,12,86,1900000,China Internet
+711,2.00970873786,MindMixer,Series_C,113,122,17000000,China Internet
+713,1.50485436893,Mintigo,Series_C,67,61,10000000,-
+714,inf,Misfit,Series_A,4,31,7600000,
+715,inf,Misfit,Series_B,55,28,15200000,
+716,inf,Misfit,Series_C,62,33,40000000,
+717,inf,Miso,Series_A,2,11,1500000,
+718,inf,Miso,Series_B,16,11,4000000,
+720,1.52475247525,Mixamo,Series_B,48,92,3700000,Real Estate Investors
+721,0.251582278481,Mixbook,Series_A,6,0,800000,Big Data Analytics
+722,15.5454545455,Mixbook,Series_B,0,9,10000000,Big Data Analytics
+723,7.5,Mixpanel,Series_A,79,27,10250000,Marketing Automation
+724,6.53333333333,Mixpanel,Series_B,189,69,65000000,Marketing Automation
+725,186.0,Moat,Series_B,8,38,12000000,Curated Web
+726,3.54545454545,MobStac,Series_B,33,49,2000000,Proximity Services
+729,0.44635193133,Modcloth,Series_A,5,0,2100000,
+730,66.3333333333,Modcloth,Series_B,17,26,19800000,
+731,196.0,Modcloth,Series_C,33,28,25000000,
+732,2.4606741573,Mogl,Series_A,17,28,2400000,
+733,0.509868421053,Mojiva,Series_B,1,8,7000000,
+734,0.615094339623,MokaFive,Series_C,18,7,21000000,Physicians
+735,2.703125,Mongolab,Series_B,63,147,5000000,K-12 Education
+737,1.52991452991,Morphlabs,Series_C,9,68,5000000,Hospitality
+738,inf,Mosaic,Series_A,3,28,3500000,Geospatial
+739,inf,Mosaic,Series_B,62,43,8500000,Geospatial
+740,2.74242424242,Motionbox,Series_C,8,11,6000000,Ticketing
+742,0.9875,Movableink,Series_B,28,111,11000000,Virtualization
+743,inf,Moz,Series_B,9,34,18000000,
+744,0.654761904762,MyBuys,Series_C,1,38,20000000,Biotechnology
+745,4.11764705882,MyCheck,Series_A,21,53,4200000,-
+746,1.72340425532,MyCheck,Series_B,68,62,5000000,-
+748,0.151145038168,MyThings,Series_C,12,10,6000000,Health And Safety
+749,1.94565217391,MyThings,Series_D,3,32,15000000,Health And Safety
+750,0.311411992263,NABsys,Series_D,11,47,35000000,
+751,212.0,Namely,Series_A,112,110,3400000,Genetic Testing
+752,211.0,Namely,Series_B,137,82,12000000,Genetic Testing
+753,7.2,Namshi,Series_C,22,48,13000000,Analytics
+754,14.8571428571,Nanigans,Series_A,0,7,3000000,SaaS
+755,18.2222222222,Nanigans,Series_B,33,63,5800000,SaaS
+759,4.8125,NationBuilder,Series_A,29,165,6250000,
+760,9.0,NationBuilder,Series_B,69,134,8000000,
+761,40.6,NatureBox,Series_A,64,31,8500000,Advertising
+762,51.25,NatureBox,Series_B,273,45,18000000,Advertising
+763,177.0,Nebula,Series_A,2,14,10000000,
+764,inf,Nebula,Series_B,26,43,25000000,
+765,inf,Needle,Series_B,24,40,10500000,Car Rental P2 P 
+766,inf,Netbooks,Series_B,5,5,9100000,Manufacturing
+767,1.22962962963,Netsertive,Series_B,4,32,7300000,
+768,2.24,Netsertive,Series_C,229,102,3000000,
+769,2.13924050633,Newforma,Series_D,11,60,5100000,Software
+770,0.159285159285,Newlans,Series_B,17,20,15000000,Communications Infrastructure
+771,10.5263157895,NewsCred,Series_B,73,74,15000000,
+772,47.25,NewsCred,Series_C,393,166,25000000,
+773,0.968152866242,NextDocs,Series_B,11,44,5000000,Clean Technology
+777,7.52380952381,Nimbula,Series_B,50,41,15000000,Sunglasses
+778,3.25396825397,Nimbuzz,Series_B,1,0,15000000,VoIP
+779,12.6875,NoWait,Series_A,28,41,2000000,Educational Games
+780,14.4,NoWait,Series_B,144,44,10000000,Educational Games
+784,2.0,Nomadesk,Series_B,4,12,7000000,Enterprise 2.0
+785,1.22929936306,NonProfitEasy,Series_A,8,34,550000,Nonprofits
+786,0.585889570552,NonProfitEasy,Series_B,32,42,1000000,Nonprofits
+787,25.75,Nor1,Series_B,4,1,9000000,Health Care
+788,2.08181818182,Notonthehighstreet,Series_C,12,77,11900000,3D Technology
+789,27.3333333333,Novinda,Series_C,0,19,6000000,Clean Technology
+790,1.91111111111,NuoDB,Series_B,23,87,10000000,Big Data Analytics
+791,1.93023255814,NuoDB,Series_C,47,78,14200000,Big Data Analytics
+792,0.600628930818,Nurix,Series_B,34,49,25100000,Health Care
+793,0.24893314367,OLX,Series_C,6,0,5000000,Subscription Businesses
+794,174.0,OUYA,Series_A,32,55,15000000,Cyber Security
+795,2.88732394366,OVGuide,Series_B,7,2,3000000,-
+796,11.6470588235,Occipital,Series_A,27,60,7000000,
+797,0.646666666667,Olacabs,Series_A,7,72,5000000,Enterprise Software
+798,6.76666666667,Olacabs,Series_B,35,62,20000000,Enterprise Software
+799,16.3333333333,Olacabs,Series_C,84,88,41500000,Enterprise Software
+800,12.25,Onavo,Series_B,26,50,10000000,Mobile
+801,26.8333333333,OneRiot,Series_C,10,0,7000000,App Discovery
+802,inf,Onshape,Series_A,76,76,9000000,Software
+803,1.1935483871,Oodle,Series_C,12,0,5600000,Software
+804,0.481375358166,Ookbee,Series_A,19,58,2000000,E-Commerce
+805,1.00625,OpGen,Series_C,5,24,17000000,Business Services
+806,188.0,OpenGov,Series_A,45,149,3000000,Corporate Training
+807,107.0,OpenGov,Series_B,214,274,15000000,Corporate Training
+808,0.919075144509,OpenSky,Series_A,26,0,5000000,Crowdsourcing
+809,40.2,OpenSky,Series_C,32,55,30000000,Crowdsourcing
+810,4.97674418605,OpenX,Series_B,5,0,15500000,Enterprise Software
+811,8.19230769231,OpenX,Series_C,3,0,10000000,Enterprise Software
+812,7.8,OpenX,Series_D,6,35,20000000,Enterprise Software
+813,inf,Opendoor,Series_A,108,81,9950000,
+814,1.85555555556,Optify,Series_B,5,15,6100000,E-Commerce
+815,10.6315789474,Optimal,Series_A,10,0,600000,Business Services
+816,inf,Optimal,Series_B,40,76,4500000,Business Services
+817,16.9,Optimizely,Series_A,42,42,28000000,
+818,19.4545454545,Optimizely,Series_B,195,103,57000000,
+819,0.375,Optoro,Series_C,90,61,50000000,Human Resources
+820,2.56060606061,Orbotix,Series_B,18,27,5000000,Labor Optimization
+821,15.2307692308,Orbotix,Series_D,67,52,20000000,Labor Optimization
+822,inf,Origami,Series_A,47,52,5000000,Mobile Payments
+823,5.78787878788,Ostrovok,Series_A,2,28,13600000,
+824,0.826086956522,Outbrain,Series_B,8,0,12000000,
+825,2.15,Outbrain,Series_C,12,74,11000000,
+826,4.58974358974,Outbrain,Series_D,20,124,35000000,
+827,3.72727272727,Outspark,Series_C,31,2,8300000,Software
+828,0.943396226415,Oversi,Series_C,3,0,4900000,
+829,7.23076923077,Overtone,Series_C,8,15,7000000,Content Delivery
+830,1.69662921348,Packlink,Series_A,39,63,1500000,Cloud Infrastructure
+831,5.34210526316,Paddle8,Series_B,67,77,6000000,Big Data Analytics
+832,4.68421052632,PagerDuty,Series_A,149,122,10700000,
+833,12.5882352941,PagerDuty,Series_B,190,105,27200000,
+834,10.0,PanOptica,Series_A,12,73,30000000,-
+835,3.234375,PanOptica,Series_B,98,117,45000000,-
+836,2.0099009901,Panaya,Series_D,26,61,16000000,-
+837,71.3333333333,Pantheon,Series_A,9,29,5000000,
+838,inf,Pantheon,Series_B,79,44,21500000,
+841,inf,Path,Series_A,9,39,8650000,
+842,inf,Path,Series_B,36,87,30000000,
+843,inf,Path,Series_C,144,81,25000000,
+844,1.09708737864,Payfone,Series_B,6,3,11000000,
+846,26.0,Peatix,Series_A,112,154,3000000,Identity Management
+847,inf,Peel,Series_B,14,36,16700000,
+848,101.0,Peloton,Series_A,32,146,3500000,Semiconductors
+849,inf,Peloton,Series_B,120,96,10500000,Semiconductors
+850,21.875,Pentaho,Series_C,39,139,23000000,Beauty
+851,0.55033557047,Perceptis,Series_B,5,5,1500000,Information Services
+852,20.2,Percolate,Series_A,69,115,9000000,
+855,1.02684563758,PerfectServe,Series_C,5,18,10900000,Web Hosting
+856,3.13725490196,Pernixdata,Series_B,33,113,20000000,SEO
+857,6.06060606061,Petflow,Series_B,14,47,10000000,Video
+858,inf,Philo,Series_A,70,67,6300000,PaaS
+860,0.248216833096,Phunware,Series_C,9,44,6000000,
+861,0.904191616766,Phunware,Series_D,9,58,8380000,
+862,6.29411764706,Phyzios,Series_B,4,20,5600000,Software
+863,inf,Piazza,Series_A,55,85,6000000,
+864,inf,Piazza,Series_B,154,88,8000000,
+866,9.875,Pixable,Series_B,18,61,3600000,Mobile Video
+867,inf,Placed,Series_A,16,55,3400000,Banking
+868,inf,Placed,Series_B,195,104,10000000,Banking
+869,1.90588235294,Placeiq,Series_C,75,130,15000000,Price Comparison
+872,inf,Plastiq,Series_A,80,73,6000000,Communications Hardware
+873,inf,Plastiq,Series_B,132,48,10000000,Communications Hardware
+874,inf,Plastyc,Series_B,13,23,2000001,Finance
+875,0.718253968254,Platfora,Series_B,53,113,20000000,
+876,2.28571428571,Platfora,Series_C,108,115,38000000,
+877,inf,Pley,Series_A,73,64,6750000,Geospatial
+878,0.625454545455,PlumTV,Series_B,7,0,5200000,Big Data
+880,inf,Pocket,Series_A,13,51,5000000,Crowdsourcing
+881,2.20879120879,PokitDok,Series_A,96,193,4300000,Software
+882,23.4444444444,Portero,Series_B,3,0,6600000,Lifestyle
+883,210.0,Posterous,Series_A,11,12,4400000,Operations 
+884,204.0,Posterous,Series_B,13,27,5000000,Operations 
+885,1.84536082474,PrecisionHawk,Series_B,185,174,10000000,Drones
+886,1.49166666667,Precyse,Series_B,4,5,11000000,Consulting
+887,inf,Premise,Series_B,114,83,11000000,Creative
+888,90.5,PrestaShop,Series_A,6,37,3750000,MicroBlogging
+889,201.0,PrestaShop,Series_B,99,63,9300000,MicroBlogging
+890,inf,Prezi,Series_B,15,32,14000000,Photography
+893,12.5,Profitably,Series_A,15,34,1100000,Small and Medium Businesses
+894,16.8181818182,Profitably,Series_B,42,80,88900,Small and Medium Businesses
+896,0.717299578059,ProtonMedia,Series_B,7,33,4500000,Enterprise Software
+897,3.86274509804,PubNub,Series_A,80,83,4500000,Bridging Online and Offline
+898,3.98039215686,PubNub,Series_B,92,114,10600000,Bridging Online and Offline
+899,0.34309623431,Pubmatic,Series_A,3,0,7000000,Security
+900,0.604575163399,Pubmatic,Series_B,7,0,3500000,Security
+901,1.72043010753,Pubmatic,Series_C,8,58,7500000,Security
+902,inf,PunchTab,Series_B,19,5,6300000,
+905,0.85,PureCars,Series_B,55,54,5000000,Automotive
+906,22.7777777778,Putney,Series_B,6,0,6700000,
+907,216.0,Putney,Series_C,3,36,21000000,
+908,3.98148148148,Qosmos,Series_C,6,0,10850000,Semiconductors
+909,inf,Qosmos,Series_D,4,31,28500000,Semiconductors
+910,0.716738197425,QualVu,Series_B,24,20,1900000,Market Research
+911,71.6666666667,Quandoo,Series_A,9,41,4500000,Biotechnology
+912,72.0,Quandoo,Series_B,38,43,8000000,Biotechnology
+913,30.5714285714,Quandoo,Series_C,72,43,25000000,Biotechnology
+914,5.02325581395,Quantcast,Series_B,10,0,20000000,Marketplace Lender
+915,5.34375,Quantcast,Series_C,27,45,27500000,Marketplace Lender
+916,0.786046511628,QuantiaMD,Series_A,15,83,12000000,Health Care
+917,0.815789473684,QuantiaMD,Series_B,18,47,10000000,Health Care
+918,1.375,Quantopian,Series_A,121,111,6700000,
+919,1.83673469388,Quantopian,Series_B,279,154,15000000,
+920,29.2857142857,ROBLOX,Series_A,6,0,2200000,Blockchains
+921,37.75,ROBLOX,Series_B,2,1,4000000,Blockchains
+922,inf,Raise,Series_A,173,125,18100000,Web CMS
+923,1.46017699115,Rapid7,Series_B,17,25,2000000,Curated Web
+924,4.33333333333,Rapid7,Series_C,21,135,50000000,Curated Web
+925,4.71111111111,Rapport,Series_C,2,0,18500000,Biotechnology
+926,169.0,Raptr,Series_B,1,3,15000000,Supply Chain Management
+927,2.38888888889,Reachable,Series_A,5,0,3200000,App Discovery
+928,47.25,Reachable,Series_B,8,31,5600000,App Discovery
+929,0.906666666667,Realmatch,Series_C,19,47,7000000,Enterprise Software
+930,1.91919191919,Rebit,Series_C,4,30,1000000,Flash Storage
+931,3.01886792453,Recommind,Series_C,35,103,15000000,Enterprise Software
+932,6.06896551724,Recyclebank,Series_C,25,51,14000000,
+933,2.72727272727,RedMart,Series_B,118,78,23000000,E-Commerce
+934,4.80487804878,Redfin,Series_D,6,0,10000000,
+935,4.75,Redux,Series_A,2,0,3500000,Developer APIs
+936,111.5,Redux,Series_B,12,18,1000000,Developer APIs
+937,220.0,Refinery29,Series_B,135,78,5600000,Messaging
+938,204.0,Refinery29,Series_C,129,119,20000000,Messaging
+939,inf,Reflektion,Series_A,88,94,3300000,Music
+940,inf,Reflektion,Series_B,155,71,8000000,Music
+941,inf,Remind,Series_B,167,79,15000000,
+942,inf,Remind,Series_C,243,118,40000000,
+946,1.51639344262,Restorando,Series_B,37,60,13300000,Hardware + Software
+947,4.32653061224,Retailigence,Series_A,3,56,2600000,Employer Benefits Programs
+948,47.25,Retrofit,Series_A,17,71,8000000,Electronics
+949,105.0,Retrofit,Series_B,52,129,5000000,Electronics
+950,inf,Reveal,Series_B,101,89,1000000,Photo Sharing
+951,2.1359223301,ReverbNation,Series_B,5,1,3000000,New Product Development
+952,inf,ReverbNation,Series_C,9,42,3600000,New Product Development
+953,0.107904642409,RideCharge,Series_C,8,27,2100000,iPhone
+954,1.21387283237,RightScale,Series_B,8,0,13000000,SaaS
+955,7.81818181818,RightScale,Series_D,28,66,15600000,SaaS
+956,5.64516129032,RingCentral,Series_D,6,11,10000000,Synthetic Biology
+957,0.818652849741,RingRevenue,Series_B,5,37,4000000,
+958,0.33950617284,RingRevenue,Series_C,93,69,20000000,
+960,inf,Robinhood,Series_A,177,76,13000000,
+961,inf,Rockmelt,Series_A,6,0,8200000,Application Performance Monitoring
+962,108.0,Rockmelt,Series_B,2,18,30000000,Application Performance Monitoring
+965,1.53435114504,Routehappy,Series_A,111,60,3300000,Cloud Infrastructure
+966,3.6,Rouxbe,Series_B,14,17,2100000,-
+968,0.763052208835,SIPX,Series_A,8,25,2400000,Social Network Media
+969,32.6666666667,SLYCE,Series_A,37,21,10750000,
+971,2.28409090909,Sailthru,Series_A,10,33,8000000,Social Commerce
+972,0.349397590361,Sample6,Series_B,23,48,11000000,Sharing Economy
+973,0.148219441771,Samsoft,Series_A,9,12,1520000,Computers
+976,26.2857142857,Savingstar,Series_C,4,6,9000000,Advertising Platforms
+977,14.4166666667,Savingstar,Series_D,3,19,9100000,Advertising Platforms
+980,0.850678733032,Scarosso,Series_B,58,25,11000000,Shoes
+981,0.393939393939,Schoology,Series_A,28,9,1300000,Software
+982,8.78260869565,Schoology,Series_B,30,60,6800000,Software
+983,42.6,Schoology,Series_C,280,112,15000000,Software
+984,2.16883116883,Scoreloop,Series_B,4,0,2800000,Games
+985,29.5,Scoutmob,Series_A,12,50,1500000,Big Data Analytics
+986,27.625,Scoutmob,Series_B,79,86,3000000,Big Data Analytics
+987,64.0,ScribbleLive,Series_B,25,41,8000000,Blogging Platforms
+988,4.23529411765,Scribd,Series_B,13,0,9000000,Big Data Analytics
+989,inf,Scribd,Series_C,13,16,13000000,Big Data Analytics
+990,inf,Scripted,Series_A,104,115,4500000,
+991,inf,Scripted,Series_B,138,98,9000000,
+992,0.616,ScrollMotion,Series_A,18,26,1900000,Analytics
+993,2.04054054054,ScrollMotion,Series_B,4,27,7000000,Analytics
+994,0.531690140845,ScrollMotion,Series_D,15,29,5000000,Analytics
+995,0.304804804805,Seatwave,Series_D,7,0,17000000,Security
+996,1.08724832215,SecondMarket,Series_B,13,5,15000000,
+997,8.88235294118,SecondMarket,Series_C,40,69,15000000,
+998,inf,Secret,Series_A,227,83,8600000,
+999,inf,Secret,Series_B,180,85,25000000,
+1001,inf,Segment,Series_A,238,151,15000000,
+1002,14.2857142857,Sencha,Series_A,19,24,14000000,Games
+1003,105.0,Sencha,Series_B,12,22,15000000,Games
+1004,1.48360655738,SendHub,Series_B,154,83,5000000,B2B
+1005,0.316993464052,Senseg,Series_B,37,30,6000000,Interface Design
+1006,0.430962343096,Sequella,Series_C,19,37,38000000,Retail
+1007,159.0,ShapeUp,Series_A,1,3,5000000,Software
+1008,inf,ShapeUp,Series_B,72,55,5000000,Software
+1009,4.83720930233,ShareThis,Series_A,6,0,6000000,
+1010,4.1568627451,ShareThis,Series_B,5,0,15000000,
+1011,inf,ShareThis,Series_C,19,42,30000000,
+1012,2.23076923077,Sharethrough,Series_B,18,78,5000000,Elder Care
+1013,8.45833333333,Shoedazzle,Series_A,12,0,7000000,Finance Technology
+1014,19.9,Shoedazzle,Series_B,6,34,13000000,Finance Technology
+1015,57.6666666667,Shoedazzle,Series_C,7,42,40000000,Finance Technology
+1018,1.41134751773,Shoutlet,Series_A,7,1,2000000,Health Care
+1019,6.67857142857,Shoutlet,Series_C,17,66,15000000,Health Care
+1020,1.5078125,Showpad,Series_A,40,135,2000000,Distribution
+1021,3.76470588235,Showpad,Series_B,300,221,8500000,Distribution
+1025,inf,Simplee,Series_A,18,70,6000000,Mobile Payments
+1026,inf,Simplee,Series_B,69,82,10000000,Mobile Payments
+1027,1.97777777778,Simplilearn,Series_B,14,26,10000000,Tutoring
+1028,0.838174273859,SimplyCast,Series_A,8,1,1000000,Direct Marketing
+1029,4.97142857143,SimplyCast,Series_B,86,49,2300000,Direct Marketing
+1034,4.32,Siri,Series_A,5,0,8500000,Big Data Analytics
+1035,204.0,Siri,Series_B,3,0,15500000,Big Data Analytics
+1036,2.8125,Sittercity,Series_B,9,21,22600000,Technology
+1037,3.82926829268,Sittercity,Series_C,40,68,13000000,Technology
+1038,inf,Skillz,Series_A,39,42,5500000,Subscription Businesses
+1039,1.78095238095,Skimlinks,Series_A,11,1,1500000,
+1040,1.95698924731,Skimlinks,Series_B,19,49,4500000,
+1042,211.0,Slack,Series_A,3,17,5000000,Private Social Networking
+1043,inf,Slack,Series_B,6,20,10700000,Private Social Networking
+1044,inf,Slack,Series_C,168,105,42750000,Private Social Networking
+1045,11.7142857143,SmartRecruiters,Series_A,46,178,5000000,Social Media Marketing
+1046,14.5384615385,SmartRecruiters,Series_B,59,151,10000000,Social Media Marketing
+1047,1.30935251799,SmartSheet,Series_B,12,2,1300000,Food and Beverages
+1048,1.62264150943,SmartSheet,Series_C,24,18,1500000,Food and Beverages
+1049,2.4375,SmartSheet,Series_D,21,24,1000000,Food and Beverages
+1050,0.428571428571,Smartling,Series_B,22,80,10000000,
+1051,2.71428571429,Smartling,Series_C,131,148,24000000,
+1052,5.43243243243,Smartling,Series_D,236,149,25000000,
+1053,6.25806451613,Smule,Series_A,9,0,3900000,
+1054,14.2666666667,Smule,Series_C,12,0,8000000,
+1055,4.34090909091,SocialFlow,Series_B,60,90,10000000,
+1059,198.0,SocialWare,Series_C,8,46,7000000,Hardware + Software
+1060,1.77272727273,Socialcast,Series_A,18,0,1000000,Content Discovery
+1061,17.9090909091,Socialtext,Series_D,30,0,4500000,Jewelry
+1062,5.38235294118,Socrata,Series_B,83,112,18000000,Fashion
+1063,7.13793103448,Socrata,Series_C,294,282,30000000,Fashion
+1064,0.869565217391,Sofatutor,Series_C,105,71,4600000,Tutoring
+1065,1.97590361446,Solidfire,Series_B,22,76,25000000,
+1066,3.8,Solidfire,Series_C,49,137,31000000,
+1067,33.8,Solum,Series_B,4,28,17000000,SaaS
+1068,7.24137931034,Soluto,Series_B,11,30,10200000,Digital Entertainment
+1069,1.63865546218,Sonatype,Series_B,22,67,11600000,Boston
+1070,4.6,Sonian,Series_B,7,51,9000000,Application Platforms
+1071,7.22580645161,Sonian,Series_C,6,75,13600000,Application Platforms
+1072,21.1111111111,Soonr,Series_C,17,0,3000000,Cloud Computing
+1073,1.34782608696,Soonr,Series_D,14,13,4500000,Cloud Computing
+1074,213.0,Sosh,Series_A,11,23,4000000,Genetic Testing
+1075,198.0,Sosh,Series_B,45,78,10100000,Genetic Testing
+1076,2.17391304348,SpaceClaim,Series_D,3,23,17000000,Fashion
+1077,inf,Spanning,Series_A,7,41,3000000,Advertising Platforms
+1078,8.0,Spigit,Series_C,25,104,10000000,Software
+1079,1.07741935484,Splashtop,Series_D,14,8,10000000,Digital Currency
+1080,0.780952380952,Spongecell,Series_B,10,37,10000000,Training
+1081,0.136998254799,Spoqa,Series_B,45,44,2000000,Local Coupons
+1082,3.36538461538,SportPursuit,Series_B,54,35,7600000,Batteries
+1083,14.25,Spredfast,Series_C,33,41,18000000,SaaS
+1084,31.6,Spredfast,Series_D,265,188,32500000,SaaS
+1085,106.0,Sprig,Series_A,287,103,12000000,Video Streaming
+1086,3.71428571429,Sprinklr,Series_A,9,26,5000000,
+1087,6.96774193548,Sprinklr,Series_B,47,22,15000000,
+1088,8.39130434783,Sprinklr,Series_C,126,65,17500000,
+1089,39.8,Sprinklr,Series_D,256,111,40000000,
+1091,34.6666666667,Squarespace,Series_A,10,18,38500000,
+1092,208.0,Squarespace,Series_B,190,43,40000000,
+1093,1.64655172414,StartWire,Series_A,16,42,3300000,Collaboration
+1094,0.451530612245,StartWire,Series_B,18,30,1500000,Collaboration
+1095,3.8,Steelhouse,Series_B,3,22,6300000,Crowdsourcing
+1096,inf,StepOut,Series_A,2,32,3000000,
+1101,50.25,Strava,Series_A,8,11,3500000,
+1102,inf,Strava,Series_C,39,47,7250000,
+1103,1.89523809524,Streetline,Series_C,42,85,25000000,
+1104,2.02150537634,StrongMail,Series_D,28,0,7600000,Health and Insurance
+1105,183.0,StumbleUpon,Series_B,10,26,17000000,Big Data
+1106,15.6666666667,Stylistpick,Series_B,6,48,11000000,Security
+1107,43.75,Sulia,Series_A,18,19,1500000,Data Mining
+1110,2.0,Superfish,Series_B,12,1,5300000,Semantic Search
+1111,1.58260869565,Superfish,Series_C,10,15,4000000,Semantic Search
+1112,6.82142857143,Superfish,Series_D,31,30,10000000,Semantic Search
+1113,0.742616033755,Superpedestrian,Series_B,138,97,4000000,Bicycles
+1116,4.27906976744,Swipely,Series_C,169,106,20000000,Fashion
+1117,5.38461538462,Swoopo,Series_B,2,0,10000000,Shopping
+1118,9.40909090909,Swrve,Series_A,29,92,6300000,Tutoring
+1119,9.11764705882,Swrve,Series_B,149,69,10000000,Tutoring
+1120,6.45454545455,Symplified,Series_A,19,0,6000000,Mobile Advertising
+1121,176.0,Symplified,Series_B,23,26,9200000,Mobile Advertising
+1122,205.0,Symplified,Series_C,27,51,20000000,Mobile Advertising
+1123,0.696850393701,Sympoz,Series_A,11,72,6000000,Hardware + Software
+1124,0.478036175711,Sympoz,Series_B,13,70,15000000,Hardware + Software
+1125,1.5046728972,Synack,Series_B,206,97,25000000,-
+1126,0.826086956522,Syncbak,Series_B,5,44,7300000,-
+1127,2.03125,Syncbak,Series_C,26,69,6500000,-
+1129,108.0,TRA,Series_B,6,2,13500000,Biotechnology
+1130,inf,TRA,Series_C,0,13,18200000,Biotechnology
+1131,2.63855421687,TRUSTe,Series_A,2,0,10000000,
+1132,236.0,TRUSTe,Series_B,6,2,12000000,
+1133,inf,TRUSTe,Series_C,1,8,15000000,
+1135,2.51898734177,TakeLessons,Series_A,7,34,6000000,E Learn
+1136,4.86842105263,TakeLessons,Series_B,111,30,4000000,E Learn
+1137,6.22580645161,TakeLessons,Series_C,225,70,7000000,E Learn
+1138,5.5,TapInfluence,Series_B,72,67,5000000,Interest Graph
+1139,3.36842105263,Tapingo,Series_B,387,66,10500000,Apps
+1140,6.12121212121,TaskRabbit,Series_A,26,46,5000000,
+1141,29.8333333333,TaskRabbit,Series_C,42,61,13000000,
+1142,9.35,Tastemade,Series_B,91,86,10000000,Hotels
+1143,17.6923076923,Tastemade,Series_C,379,203,25000000,Hotels
+1144,0.7734375,TellApart,Series_B,25,76,13000000,Developer Tools
+1146,5.84375,TenXer,Series_B,27,70,3000000,Wearables
+1147,0.772925764192,Terrafugia,Series_B,3,18,2180000,MMO Games
+1148,1.72277227723,Terrafugia,Series_D,12,41,2600000,MMO Games
+1149,1.58762886598,TextMaster,Series_A,15,43,2000000,Training
+1150,1.85567010309,TextMaster,Series_B,107,77,1360000,Training
+1157,0.551724137931,ThinkingPhones,Series_D,140,135,56700000,Clean Technology
+1158,1.9,ThisNext,Series_B,1,0,5000000,Social Buying
+1159,12.4444444444,Thismoment,Series_A,10,53,7300000,
+1160,14.8333333333,Thismoment,Series_C,26,40,22000000,
+1161,4.4693877551,Threadsy,Series_A,3,0,3300000,Artificial Intelligence
+1162,215.0,Threadsy,Series_B,10,27,3000000,Artificial Intelligence
+1163,0.924170616114,Ticketbis,Series_A,7,40,1300000,Social Media
+1164,6.72413793103,Ticketbis,Series_C,52,96,4500000,Social Media
+1165,8.39130434783,Ticketbis,Series_D,42,40,6700000,Social Media
+1166,5.41860465116,Ticketfly,Series_A,10,17,3000000,
+1167,8.94736842105,Ticketfly,Series_B,14,59,12000000,
+1168,15.6153846154,Ticketfly,Series_C,55,89,22000000,
+1169,1.14516129032,Tidemark,Series_B,3,38,4000000,
+1170,1.80188679245,Tidemark,Series_C,16,96,24000000,
+1171,1.8,Tidemark,Series_D,46,66,13000000,
+1174,6.7037037037,TigerText,Series_A,0,12,8200000,Medical Devices
+1175,inf,Tilt,Series_A,64,68,12000000,
+1176,inf,Tilt,Series_B,115,101,23000000,
+1177,4.11111111111,Timebridge,Series_B,8,0,5000000,-
+1178,32.0,TinderBox,Series_B,16,31,1300000,SaaS
+1179,17.2727272727,TinderBox,Series_C,131,101,3000000,SaaS
+1180,3.66666666667,TokBox,Series_A,5,0,4000000,Incentives
+1181,27.75,TokBox,Series_C,2,11,12000000,Incentives
+1182,1.42307692308,Tongal,Series_B,24,36,15000000,Crowdsourcing
+1183,inf,Top10,Series_B,66,64,8000000,Apps
+1186,0.38021978022,TopSchool,Series_C,2,11,8000000,Loyalty Programs
+1187,1.76237623762,TopTenREVIEWS,Series_B,6,21,1500000,Curated Web
+1189,1.73684210526,Totango,Series_B,95,100,15500000,Hardware + Software
+1190,4.23404255319,TouchOfModern,Series_B,31,33,14000000,Collectibles
+1191,0.954545454545,TouchPal,Series_A,8,0,5000000,-
+1192,13.7857142857,TouchPal,Series_C,58,20,20000000,-
+1193,1.32116788321,TouchType,Series_B,15,27,17500000,Construction
+1194,1.90721649485,Townhog,Series_B,2,11,1500000,Fraud Detection
+1195,1.62385321101,Tracx,Series_B,33,56,4400000,Brand Marketing
+1196,3.79591836735,Trada,Series_A,6,5,2200000,-
+1197,15.0769230769,Trada,Series_C,12,15,5750000,-
+1198,195.0,Trada,Series_D,12,53,9000000,-
+1199,42.25,TransferWise,Series_A,127,102,6000000,
+1200,12.0,TransferWise,Series_B,144,98,25000000,
+1201,7.04166666667,TravelBird,Series_A,33,14,5600000,Online Travel
+1202,24.0,TravelBird,Series_B,31,23,26500000,Online Travel
+1203,3.78431372549,TravelMuse,Series_B,8,0,2000000,Travel
+1205,inf,Treato,Series_B,27,65,14500000,Biotechnology
+1206,inf,Treehouse,Series_A,14,50,4750000,Insurance
+1207,inf,Treehouse,Series_B,97,91,7000000,Insurance
+1208,5.5,Trendyol,Series_B,2,14,9079440,Productivity Software
+1209,13.7692307692,Trendyol,Series_C,2,32,25000000,Productivity Software
+1210,0.347908745247,TrialReach,Series_A,16,84,3200000,Biotechnology
+1211,1.20134228188,TrialReach,Series_B,131,200,13500000,Biotechnology
+1212,1.06417112299,Tributes,Series_A,3,0,4300000,Elderly
+1213,18.6363636364,Tributes,Series_B,12,1,1200000,Elderly
+1214,0.18648018648,Trifacta,Series_A,0,24,4300000,
+1215,0.70462633452,Trifacta,Series_B,143,124,12000000,
+1216,4.22222222222,Trifacta,Series_C,159,142,25000000,
+1217,2.49367088608,Triplay,Series_C,4,76,5000000,Enterprise Software
+1218,23.5555555556,Trusper,Series_A,14,1,6170000,Fashion
+1219,12.4117647059,Trusper,Series_B,36,11,20000000,Fashion
+1220,9.04166666667,Truviso,Series_B,2,0,3000000,Business Intelligence
+1221,16.2307692308,TuneUp,Series_A,11,0,3000000,Hospitals
+1222,40.0,TuneUp,Series_C,2,10,4300000,Hospitals
+1223,4.72727272727,TuneWiki,Series_B,4,5,7000000,Web Tools
+1224,inf,Tweetdeck,Series_B,2,11,3500000,
+1225,inf,Twice,Series_A,32,70,4000000,
+1226,inf,Twice,Series_B,194,76,18500000,
+1227,1.2,Txteagle,Series_A,26,44,8500000,Databases
+1228,0.562841530055,Typesafe,Series_A,40,43,3000000,Consumer Lending
+1229,3.86046511628,Typesafe,Series_B,95,157,14000000,Consumer Lending
+1230,2.66666666667,Unidesk,Series_B,7,75,12000000,Health Care
+1231,2.09523809524,Unidesk,Series_C,17,75,9000000,Health Care
+1232,1.41095890411,Unidesk,Series_D,69,160,10250000,Health Care
+1233,3.80434782609,Unigo,Series_A,9,0,1000000,Marketplaces
+1234,2.40506329114,Unigo,Series_B,10,73,1600000,Marketplaces
+1235,1.36111111111,Unigo,Series_C,87,71,100000,Marketplaces
+1236,0.574468085106,UniversityNow,Series_C,66,88,19000000,Security
+1237,4.0487804878,Unmetric,Series_B,117,118,5500000,Social Media Monitoring
+1238,0.560723514212,Untangle,Series_B,1,0,8000000,
+1239,0.542682926829,UpTake,Series_A,5,0,4000000,Image Recognition
+1240,4.38,UpTake,Series_B,17,0,10000000,Image Recognition
+1241,3.40350877193,UrbanSitter,Series_A,21,61,1750000,
+1242,2.43243243243,UrbanSitter,Series_B,64,93,15000000,
+1243,5.0487804878,VHX,Series_A,39,36,3200000,Consulting
+1244,193.0,VTS,Series_A,47,64,7000000,South East Asia
+1245,0.146551724138,Vapotherm,Series_B,28,31,24000000,Clean Technology
+1246,inf,Vend,Series_A,8,45,2000000,Internet Radio
+1247,inf,Vend,Series_B,83,83,20000000,Internet Radio
+1250,0.428265524625,Viewdle,Series_A,18,1,3500000,
+1251,0.300155520995,Viewdle,Series_B,13,7,10000000,
+1252,201.0,Viki,Series_A,1,6,4300000,
+1253,inf,Viki,Series_B,2,12,20000000,
+1254,2.13829787234,Vinfolio,Series_A,4,0,4500000,E-Commerce
+1257,0.209251101322,VirtuOz,Series_B,12,2,11400000,
+1258,28.8333333333,Visier,Series_A,7,36,6000000,Semiconductors
+1259,34.2,Visier,Series_B,15,40,15000000,Semiconductors
+1260,24.75,Visier,Series_C,88,115,25500000,Semiconductors
+1261,2.51666666667,Visualead,Series_A,31,44,1600000,Bridging Online and Offline
+1262,1.48427672956,Vitrue,Series_B,8,1,10000000,-
+1263,inf,Vitrue,Series_C,6,24,17000000,-
+1264,1.61,Vivox,Series_C,7,2,6800000,Advertising
+1265,1.40298507463,Voalte,Series_C,49,46,36000000,Semiconductors
+1266,97.0,Vobile,Series_A,6,1,10000000,Customer Service
+1267,inf,Vobile,Series_C,114,85,9000000,Customer Service
+1268,0.258642765685,Vocalocity,Series_B,2,1,4099999,Networking
+1269,1.43902439024,Vocalocity,Series_C,6,34,9500000,Networking
+1270,4.22727272727,VoltDB,Series_A,77,73,5000000,Utilities
+1271,0.173228346457,Vostu,Series_B,15,23,12000000,Internet Infrastructure
+1272,5.67647058824,Vostu,Series_C,10,16,30000000,Internet Infrastructure
+1273,1.72222222222,Vovici,Series_C,6,27,6300000,Semiconductors
+1274,inf,Voxer,Series_B,4,42,30000000,
+1275,inf,Voxer,Series_C,4,36,30000000,
+1276,94.5,Vuclip,Series_C,3,7,8000000,Home & Garden
+1277,17.4,Vuclip,Series_D,16,23,13000000,Home & Garden
+1278,1.42857142857,Vungle,Series_B,105,167,17000000,Transportation
+1279,1.57142857143,Vyatta,Series_C,8,0,10300000,Big Data Analytics
+1280,8.45833333333,Vyatta,Series_D,45,79,12000000,Big Data Analytics
+1281,inf,WHOOP,Series_A,194,93,6000000,Games
+1282,3.42372881356,WOWIO,Series_A,9,47,1700000,Curated Web
+1283,0.506289308176,Wanova,Series_B,6,36,10000000,Enterprise Software
+1284,inf,Wattpad,Series_A,0,1,3500000,
+1285,inf,Wattpad,Series_B,5,12,17300000,
+1286,inf,Wattpad,Series_C,86,48,46000000,
+1289,7.77777777778,Wayin,Series_B,28,97,14000000,-
+1290,8.44,Wayin,Series_C,249,144,12100000,-
+1291,1.63392857143,Wealthengine,Series_B,96,74,5100000,-
+1292,0.354545454545,Webvanta,Series_A,9,0,1000000,Public Relations
+1293,0.272407732865,Webvanta,Series_B,12,25,450000,Public Relations
+1294,37.8,WeddingWire,Series_B,40,111,25000000,Finance
+1295,inf,Weebly,Series_C,17,37,35000000,Textbooks
+1296,1.70289855072,Wetpaint,Series_B,7,0,9500000,
+1297,2.91463414634,Wetpaint,Series_C,4,0,25000000,
+1298,inf,Whisper,Series_B,122,81,21000000,Optimization
+1299,53.6666666667,WhoSay,Series_C,39,64,12000000,Home Owners
+1300,2.74358974359,Widgetbox,Series_B,9,0,8000000,Advertising
+1301,0.331210191083,Wikinvest,Series_B,21,28,15000000,Enterprise Software
+1302,0.253894080997,WiserTogether,Series_B,31,49,9000000,Consumer 
+1303,1.41428571429,Wochit,Series_B,23,27,11200000,Manufacturing
+1304,2.90410958904,Wonga,Series_B,1,0,22250000,Marketplaces
+1305,1.22754491018,Wooga,Series_A,5,0,7500000,Search
+1306,10.2631578947,Wooga,Series_B,15,38,24000000,Search
+1307,3.54,Woozworld,Series_B,6,5,6000000,Social Media
+1308,10.3684210526,Wordnik,Series_C,44,79,8000000,
+1310,4.37837837838,WorldMate,Series_D,15,35,2800000,Business Analytics
+1312,42.2,Xamarin,Series_B,64,105,16000000,Electronic Health Records
+1313,85.0,Xamarin,Series_C,156,107,54000000,Electronic Health Records
+1314,11.9375,Xhale,Series_C,94,63,24000000,-
+1315,11.3157894737,XunLight,Series_B,8,9,22000000,Clean Technology
+1316,195.0,Yashi,Series_A,9,17,1500000,P2P Money Transfer
+1317,inf,Yashi,Series_B,40,21,1500000,P2P Money Transfer
+1318,inf,Yashi,Series_C,95,27,4000000,P2P Money Transfer
+1319,8.36363636364,Yesware,Series_B,82,53,13500000,Curated Web
+1320,4.36363636364,Yext,Series_D,0,32,10000000,
+1321,0.324435318275,Yieldmo,Series_B,50,32,8000000,Hospitality
+1322,0.638783269962,Yieldmo,Series_C,99,41,10000000,Hospitality
+1323,5.59375,Yipit,Series_A,10,27,1300000,
+1324,6.2,Yipit,Series_B,17,21,6000000,
+1325,1.55797101449,Yola,Series_B,8,0,20000000,Internet Radio
+1326,2.53333333333,Yottaa,Series_B,42,84,9000000,Web Development
+1327,1.88679245283,Yottaa,Series_C,70,52,16000000,Web Development
+1328,53.5,YuMe,Series_C,4,0,5000000,
+1329,0.135155096012,ZEFR,Series_A,0,6,3000000,
+1330,0.641104294479,ZEFR,Series_B,1,5,7000000,
+1331,0.669642857143,ZEFR,Series_C,5,14,18500000,
+1332,0.60546875,ZIMPERIUM,Series_A,77,110,8000000,E-Commerce
+1333,0.929824561404,ZIRX,Series_A,62,46,6400000,E-Commerce Platforms
+1334,5.78787878788,ZOZI,Series_A,15,42,3000000,
+1335,12.25,ZOZI,Series_B,3,9,10000000,
+1337,5.16666666667,Zannel,Series_B,0,0,10000000,Messaging
+1338,0.231671554252,Zapproved,Series_B,12,13,1450000,Productivity Software
+1339,8.38461538462,Zattoo,Series_B,7,0,10000000,Peer-to-Peer
+1340,6.5,ZeRTO,Series_C,26,59,13000000,Networking
+1341,5.66666666667,ZeRTO,Series_D,80,72,26000000,Networking
+1342,9.1,Zendesk,Series_B,15,0,6000000,Services
+1343,28.5714285714,Zendesk,Series_C,22,55,19000000,Services
+1344,34.0,Zendesk,Series_D,30,50,60000000,Services
+1345,2.26315789474,Zenoss,Series_B,5,0,11000000,Biotechnology
+1346,8.125,Zenoss,Series_C,16,50,25000000,Biotechnology
+1347,1.24375,Zhihu,Series_A,8,22,1623640,Flash Storage
+1348,1.67796610169,ZocDoc,Series_B,15,16,15000000,
+1349,inf,ZooZ,Series_B,26,49,12000000,Social Media Platforms
+1350,1.53271028037,Zoomdata,Series_A,95,116,4100000,Construction
+1351,1.12154696133,Zoomdata,Series_B,224,160,17000000,Construction
+1352,2.01298701299,Zoove,Series_D,8,19,15000000,Semiconductors
+1353,2.73611111111,Zuberance,Series_B,12,31,8000000,Direct Marketing
+1354,4.26530612245,Zubie,Series_B,147,57,8000000,Fleet Management
+1355,6.8275862069,Zya,Series_A,1,5,4850000,Hospitality
+1356,5.87878787879,Zyncro,Series_B,31,127,2100000,MicroBlogging
+1357,3.68965517241,adeven,Series_B,48,40,4300000,-
+1358,5.0,auxmoney,Series_B,7,12,16000000,Enterprise Software
+1359,2.9552238806,cicayda,Series_B,187,356,3800000,Legal
+1360,1.1963190184,eSentire,Series_C,63,125,14000000,Web Hosting
+1361,3.54545454545,eYeka,Series_C,10,36,4300000,Brand Marketing
+1362,1.11351351351,ebyline,Series_B,32,40,5000000,Freelancers
+1363,inf,elenza,Series_B,7,25,24000000,Local Businesses
+1364,21.7777777778,foodpanda,Series_C,56,43,20000000,Flash Storage
+1365,33.3333333333,foodpanda,Series_D,48,56,60000000,Flash Storage
+1366,1.03012048193,healthrageous,Series_A,30,96,6000000,Hardware + Software
+1367,0.855140186916,healthrageous,Series_B,18,67,6500000,Hardware + Software
+1368,inf,iCopyright,Series_D,27,64,2600000,Advertising
+1369,inf,iMoney,Series_A,70,101,2000000,Insurance
+1370,inf,iMoney,Series_B,204,117,4000000,Insurance
+1371,0.445175438596,iSkoot,Series_C,1,0,19000000,Game
+1372,9.42857142857,iWalk,Series_B,3,0,20000000,Finance
+1373,214.0,iWalk,Series_D,21,72,17000000,Finance
+1374,15.8333333333,iZettle,Series_B,26,104,31400000,Web Hosting
+1375,19.4,iZettle,Series_C,98,107,55300000,Web Hosting
+1376,0.208194905869,ixigo.com,Series_A,7,19,18500000,-
+1377,10.6,littleBits,Series_A,43,73,3700000,Synthetic Biology
+1378,20.8,littleBits,Series_B,94,103,11100000,Synthetic Biology
+1379,25.1428571429,lmbang,Series_A,5,18,1000000,Social Media
+1380,8.1,lmbang,Series_B,21,39,20000000,Social Media
+1381,2.32432432432,m6d,Series_C,45,51,24000000,Search Marketing
+1383,2.89705882353,natera,Series_B,4,5,6000000,
+1384,17.75,natera,Series_C,1,13,12000000,
+1385,0.187424425635,neohapsis,Series_C,21,53,4900000,Reviews and Recommendations
+1386,inf,oDesk,Series_D,2,8,15000000,
+1387,1.0,onefinestay,Series_A,14,42,3700000,Digital Entertainment
+1388,2.33734939759,onefinestay,Series_B,24,105,12200000,Digital Entertainment
+1389,10.2941176471,thredUP,Series_B,11,27,7000000,
+1390,8.42857142857,thredUP,Series_C,11,25,14500000,
+1391,19.6,thredUP,Series_D,53,32,23000000,
+1392,0.316770186335,vWise,Series_D,59,70,1500000,Enterprise Software
