@@ -56,19 +56,28 @@ Overview</h3>
 <p>We propose to test the converse: Before financing rounds, might there be an abnormal amount of PR activity? Can we predict details on events like financing rounds based on mentions of a company on social media platforms like Twitter? Or is social media a noisy, meaningless indicator?</p>
 <p>This project aims to use data analysis and predictive analytics to find correlations between tweets and startup funding rounds in order to shed light on potential importance of tweets and social media in general as indicators of startup success. Through a variety of models, we show that there is unfortunately minimal relationship between tweets and startup funding.</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Collection</h3>
-<h5>Startup Financials</h5>
+<h2>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Collection</h2>
+          
+<h3>Startup Fundings</h3>
 <p>We obtained startup funding round data (Series A, B, C, D, E, etc. with amounts raised and valuations) from <a href="https://github.com/kyang01/startup-analysis/blob/master/angel-scraping.ipynb">AngelList</a> and <a href="https://github.com/kyang01/startup-analysis/blob/master/cb-scraping.ipynb">Crunchbase</a> by scraping their search pages.</p>
-<h5>Tweets</h5>
+          
+<p>We've downloaded our list of startups and their funding round info from <a href="https://angel.co/">AngelList</a>, a US website with extensive startup financial data, and <a href="https://www.crunchbase.com/">Crunchbase</a>, a database of the startup ecosystem. AngelList did not have an API, so we used the urllib2 Requests library to download each search page, then used BeautifulSoup to parse the page. Crunchbase also has no API, so we used the urllib2 Requests library in conjunction with Selenium Webdriver and BeautifulSoup. The data is located in the <a href="https://github.com/kyang01/startup-analysis/tree/master/startups-data">startups-data</a> folder. The python notebook for scraping AngelList is <a href="https://github.com/kyang01/startup-analysis/blob/master/angel-scraping.ipynb">here</a> and the python notebook for scraping Crunchbase is [<a href="https://github.com/kyang01/startup-analysis/blob/master/cb-scraping.ipynb">here</a>.</p>
+<h3>Tweets</h3>
+          
 <p>We obtained tweet data (text, time, location, likes/retweets, etc.) by <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-scraping.ipynb">scraping</a> the Twitter search page. This necessitated significant <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-extraction.ipynb">cleaning</a> to be usable. Although Twitter has an API, it provides insufficient and outdated information.</p>
-<h5>Miscellaneous Processing</h5>
+          
+<p> We downloaded our tweets by directly scraping <a href="https://twitter.com">Twitter</a> for mentions of startups on our list. While Twitter does have an API, its Search API is limited to an index of 6-9 days of tweets and its Timeline API is limited to up to 3200 tweets per timeline, not to mention rate limits on scraping both. We did initially write a <a href="https://github.com/kyang01/startup-analysis/blob/d98e6455038abec2d97097eb3009fd04c508799d/Mining-the-Social-Web-2nd-Edition/ipynb/Chapter%201%20-%20Mining%20Twitter.ipynb">code that used the API</a>, but decided instead to scrape via the Twitter <a href="https://twitter.com/search?q=">search page</a> with Selenium Webdriver browser scripts and BeautifulSoup. The tweets are located in the <a href="https://github.com/kyang01/startup-analysis/tree/master/tweets-data">tweets-data</a> folder. The python notebook for scraping Twitter is <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-scraping.ipynb">here</a>. The python notebook for extracting tweets from BeautifulSoup files to get relevant info is <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-extraction.ipynb">here</a>.</p>
+
+
+<h3>Translating Tweets</h3>
+
+<p>The majority of our tweets were non-English, necessiting us to translate them in order to get an accurate model that works globally, not just for US startups. After filtering English tweets with the <a href="https://bitbucket.org/spirit/guess_language">guess_language</a> python library, we used the <a href="https://pypi.python.org/pypi/microsofttranslator/0.7">Microsoft Translator API</a> to translate all our tweets. The python notebook for running this translation is located <a href="https://github.com/kyang01/startup-analysis/blob/master/translate-tweets.ipynb">here</a>.</p>
+
 <p>The majority of our tweets were non-English, so we chose to translate them via Microsoft Translator in order to have all-English results that would work globally. We took the nouns and adjectives from tweets, reducing sentences into words. We then converted words into their basic form, for example: "walk", "walking", "walks", "walked" =&gt;"walk". Each tweet is 140 characters at most, so we don't need to distinguish between sentences within tweets. </p>
 
 <h2>
-<a id="analysis" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis</h2>
-<h3>Sentiment Analysis</h3>
-<p>We used a sentiment dictionary grade the positivity, negativity, and objectivity of our words. “Positive" or “negative" words have positivity score&gt;0.5 or negativity score&gt;0.5, respectively. For each tweet, we took the average positivity and negativity score over all tokens, then summed up the total "positive" words and total "negative" words (usually 0,1, and rarely 2) in the tweet. To summarize, we have four features from sentiment analysis: average positivity, average negativity, positive count, negative count. For each company, funding round pair, we then take the average of these features for all their tweets.</p>
+<a id="analysis" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exploratory Data Analysis</h2>
 
 
 <h3>
@@ -80,10 +89,29 @@ Overview</h3>
 
 
 <h2>
+    <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Extraction</h2>
+
+<h3>Features from Tweet Metadata</h3>
+
+<h3>Features from Tweet Text</h3>
+
+<h2>
     <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Exploration and Feature Selection</h2>
-          
-<h3>Naive Predictions</h3>
-<p>Based off just the Series data, we're able to predict funding round amounts naively by predicting the average Series amount. We find the root mean squared error to be approximately $10 million, a baseline prediction we'll use to compare to our later, more complex predictions.</p>
+ 
+<h3>Natural Language Processing</h3>
+
+We parsed the text in each tweet using the pattern python library to extract nouns and adjectives. We removed punctuation and stopwords (from sklearn). We decided not to assign topics using LDA due to the heterogeneity of our tweets. We parsed the text into sentences and then tokenized the sentences into words. We then lemmatized the words, which means that we convert words into their basic form, for example: "walk", "walking", "walks", "walked" => "walk". Because each tweet is short (maximum 140 characters) we did not distinguish between sentences within tweets. Code for NLP can be found <a href="https://github.com/kyang01/startup-analysis/blob/master/Melody%20Twitter%20Sentiment%20Analysis.ipynb">here</a>.
+
+<h3>Sentiment Analysis</h3>
+
+<p>
+  We used a sentiment dictionary grade the positivity, negativity, and objectivity of our words. “Positive" or “negative" words have positivity score&gt;0.5 or negativity score&gt;0.5, respectively. For each tweet, we took the average positivity and negativity score over all tokens, then summed up the total "positive" words and total "negative" words (usually 0,1, and rarely 2) in the tweet. To summarize, we have four features from sentiment analysis: average positivity, average negativity, positive count, negative count. For each company, funding round pair, we then take the average of these features for all their tweets.
+</p>
+
+<p>
+  We used the sentiment dictionary SentiWordNet 3.0, which assigns to words (both nouns and adjectives) three sentiment scores: positivity, negativity, objectivity. For each tweet, we took the average positivity score over all tokens and the average negativity score over all tokens. We also defined a word as "positive" or "negative" if it had positivity score>0.5 or negativity score>0.5 respectively. For each tweet, we then summed up the total "positive" words and total "negative" words (usually 0,1, and rarely 2). To summarize, we have four features from sentiment analysis: average positivity, average negativity, positive count, negative count. For each company, funding round pair, we then take the average of these features for all their tweets. The python notebook for twitter sentiment analysis is <a href="https://github.com/kyang01/startup-analysis/blob/master/Melody%20Twitter%20Sentiment%20Analysis.ipynb">here</a>.
+</p>
+
           
 <h3>Correlation Analysis</h3>
 <p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates. With and without scaling both parameters, our results were mostly inconclusive. While some scaled v. scaled graphs displayed homoscedastic behavior (equal variance across features), their slopes tended to be very close to 0 and not at all linear.</p>
@@ -106,10 +134,15 @@ Overview</h3>
           
  <h2>Predictive Modeling </h2>
           
-          <h3> Linear Regression</h3>
+          <h3>Baseline Predictions</h3>
+<p>Based off just the Series data, we're able to predict funding round amounts naively by predicting the average Series amount. We find the root mean squared error to be approximately $10 million, a baseline prediction we'll use to compare to our later, more complex predictions.</p>
           
-          <h3> Support Vector Regression (SVR) </h3>
-          <p> We suspect that the problem is not linear, so we turn to Support Vector Regression (SVR).  We split the data into the training data and the testing data, standardize the numerical features of each of the two datasets separately. We try three choices of kernels - rbf, linear and polynomial. For each choice of kernal, we use GridSearchCV with 5-fold cross validation to find the optimal parameters of the predictor over a reasonable (pre-determined) range of parameters. We then fit the predictor to the training data, predict it on the test data, and evaluate it by computing RMSE on log(funding). We found that rbf predictor with C=100 and gamma=0.01 is the best, with RMSE around 1. This result is comparable to linear regression. The python notebook for SVR is  <a href="https://github.com/kyang01/startup-analysis/blob/master/pca-and-svr.ipynb">here</a>.. </p>
+<h3> Linear Regression</h3>
+          
+<h3> Support Vector Regression (SVR) </h3>
+<p> 
+  We suspect that the problem is not linear, so we turn to Support Vector Regression (SVR).  We split the data into the training data and the testing data, standardize the numerical features of each of the two datasets separately. We try three choices of kernels - rbf, linear and polynomial. For each choice of kernal, we use GridSearchCV with 5-fold cross validation to find the optimal parameters of the predictor over a reasonable (pre-determined) range of parameters. We then fit the predictor to the training data, predict it on the test data, and evaluate it by computing RMSE on log(funding). We found that rbf predictor with C=100 and gamma=0.01 is the best, with RMSE around 1. This result is comparable to linear regression. The python notebook for SVR is  <a href="https://github.com/kyang01/startup-analysis/blob/master/pca-and-svr.ipynb">here</a> (same as the PCA notebook). 
+</p>
 
           
           
