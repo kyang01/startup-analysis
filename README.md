@@ -1,6 +1,6 @@
 #### Website: [http://kyang01.github.io/startup-analysis/](http://kyang01.github.io/startup-analysis/)
 
-JKMR Data
+JKMR Data: Roger Zou, Kevin Yang, Melody Guan, Jerry Anunrojwong
 
 # Predicting Startup Funding Rounds via Tweets
 
