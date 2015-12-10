@@ -84,7 +84,17 @@ Overview</h3>
 <h3>Naive Predictions</h3>
 <p>Based off just the Series data, we're able to predict funding round amounts naively by predicting the average Series amount. We find the root mean squared error to be approximately $10 million, a baseline prediction we'll use to compare to our later, more complex predictions.</p>
 <h3>Correlation Analysis</h3>
-<p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates. With and without scaling both parameters, our results were mostly inconclusive. While some scaled v. scaled graphs displayed homoscedastic behavior, their slopes tended to be very close to 0 and not at all linear.</p>
+<p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates. With and without scaling both parameters, our results were mostly inconclusive. While some scaled v. scaled graphs displayed homoscedastic behavior (equal variance across features), their slopes tended to be very close to 0 and not at all linear.</p>
+<br/>
+<p>We plotted the unscaled 'Amount Raised' against all unscaled numerical features, and found no linear correlations.</p>
+<img src="images/amount_vs_features.png">
+<p>We then plotted the unscaled 'Amount Raised' against all numerical features normalized using boxcox transformation, and again found no linear correlations.</p>
+<img src="images/amount_vs_features_scaled.png">
+<p>We did not find linear correlations for scaled 'Amount Raised' against unscaled features either.</p>
+<img src="images/scaled_amount_vs_features.png">
+<p>We did find some homoskedastic correlations for scaled 'Amount Raised' against scaled features', but unfortunately these slopes were flat.</p>
+<img src="images/scaled_amount_vs_features_scaled.png">
+<p>From our correlation analysis, we infer that using SVR may be a better method for predictive modeling than linear regression.</p>
 
 <h3>Filler text</h3>
 <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub. But then the Touhous came.</p>
