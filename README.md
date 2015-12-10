@@ -52,6 +52,14 @@ We used the sentiment dictionary SentiWordNet 3.0, which assigns to words (both 
 ### Correlation Analysis 
 The features were all normalized using boxcox transformation.
 
+### PCA 
+
+# Predictive Modeling
+
+### Linear Regression
+
+### SVM
+
 # Results
 Who knows lol
 
