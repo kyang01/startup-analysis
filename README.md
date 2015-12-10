@@ -41,6 +41,8 @@ The majority of our tweets were non-English, necessiting us to translate them in
 
 ### Feature Extraction
 
+
+
 ### Natural Language Processing
 We parsed the text in each tweet using the pattern python library to extract nouns and adjectives. We removed punctuation and stopwords (from sklearn). We decided not to assign topics using LDA due to the heterogeneity of our tweets. We parsed the text into sentences and then tokenized the sentences into words. We then lemmatized the words, which means that we convert words into their basic form, for example: "walk", "walking", "walks", "walked" => "walk". Because each tweet is short (maximum 140 characters) we did not distinguish between sentences within tweets. Code for NLP can be found [here](https://github.com/kyang01/startup-analysis/blob/master/Melody%20Twitter%20Sentiment%20Analysis.ipynb).
 
@@ -53,6 +55,7 @@ We used the sentiment dictionary SentiWordNet 3.0, which assigns to words (both 
 We plotted the unscaled 'Amount Raised' against all unscaled numerical features, and found no linear correlations. We then plotted the unscaled 'Amount Raised' against all numerical features normalized using boxcox transformation, and again found no linear correlations. We did not find linear correlations for scaled 'Amount Raised' against unscaled features either. We did find some homoskedastic correlations for scaled 'Amount Raised' against scaled features', but unfortunately these slopes were flat. From our correlation analysis, we infer that using SVR may be a better method for predictive modeling than linear regression.
 
 ### PCA 
+Principal Component Analysis (PCA) tries to isolate a handful of linear combinations of features that "explain" most variances in the data. This is a descriptive, not predictive, technique, and it operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We then use Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance.
 
 
 # Predictive Modeling
