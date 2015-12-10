@@ -51,22 +51,22 @@
 <!--a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h3>
 Overview</h3>
 -->
-<p>For the average public relations officer, manipulating the media is a standby. Social media is no exception, with sites like Twitter, Instagram, and Facebook now regular tools in a publicist's arsenal. Raising brand awareness and positive sentiment may be especially important before important events like a startup's Series B. We propose to test the converse: Before financing rounds, might there be an abnormal amount of PR activity? Can we predict details on events like financing rounds based on mentions of a company on social media platforms like Twitter?</p>
-</br>
-<p>This project aims to use data analysis and predictive analytics to find correlations between tweets and startup funding rounds in order to shed light on potential importance of tweets and social media in general as indicators of startup success. This project will:</p>
-<ul>
-<li>do</li>
-<li>tea</li>
-</ul>
+<p>For the average public relations officer, manipulating the media is a standby. Social media is no exception, with sites like Twitter, Instagram, and Facebook now regular tools in a publicist's arsenal. Raising brand awareness and positive sentiment may be especially important before important events like a startup's Series B.
+</p>
+<p>We propose to test the converse: Before financing rounds, might there be an abnormal amount of PR activity? Can we predict details on events like financing rounds based on mentions of a company on social media platforms like Twitter? Or is social media a noisy, meaningless indicator?</p>
+<p>This project aims to use data analysis and predictive analytics to find correlations between tweets and startup funding rounds in order to shed light on potential importance of tweets and social media in general as indicators of startup success. Through a variety of models, we show that there is unfortunately minimal relationship between tweets and startup funding.</p>
 
 <h2>
 <a id="analysis" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis</h2>
 <p>Analysis stuff</p>
 
 <h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Collection</h3>
+<h4>Startup Financials</h4>
+<p>We obtained startup funding round data (Series A, B, C, D, E, etc. with amounts raised and valuations) from <a href="https://github.com/kyang01/startup-analysis/blob/master/angel-scraping.ipynb">AngelList</a> and <a href="https://github.com/kyang01/startup-analysis/blob/master/cb-scraping.ipynb">Crunchbase</a> by scraping their search pages.</p>
+<h4>Tweets</h4>
+<p>We obtained tweet data (text, time, location, likes/retweets, etc.) by <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-scraping.ipynb">scraping</a> the Twitter search page. Although Twitter has an API, it provides insufficient and outdated information.</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -76,15 +76,15 @@ Overview</h3>
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Having trouble understanding Startup-Analysis? Check out <a href="https://github.com/contact">the code and implementations</a> directly.</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Startup-analysis maintained by <a href="https://github.com/kyang01">kyang01</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      <p class="copyright">This project is maintained by <a href="https://github.com/kyang01">kyang01</a> with support from <a href="https://github.com/rogergzou">rogergzou</a> and <a href="https://github.com/jerryinfinity">jerryinfinity</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a> for Harvard's CS109 Data Science Final Project</p>
       </footer>
     </div>
 
