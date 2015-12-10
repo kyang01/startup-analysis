@@ -47,8 +47,10 @@ We parsed the text in each tweet using the pattern python library to extract nou
 ### Twitter Sentiment Analysis
 We used the sentiment dictionary SentiWordNet 3.0, which assigns to words (both nouns and adjectives) three sentiment scores: positivity, negativity, objectivity. For each tweet, we took the average positivity score over all tokens and the average negativity score over all tokens. We also defined a word as "positive" or "negative" if it had positivity score>0.5 or negativity score>0.5 respectively. For each tweet, we then summed up the total "positive" words and total "negative" words (usually 0,1, and rarely 2). To summarize, we have four features from sentiment analysis: average positivity, average negativity, positive count, negative count. For each company, funding round pair, we then take the average of these features for all their tweets.
 
-# Data Analysis
-*models*
+# Data Exploration and Feature Selection
+
+### Correlation Analysis 
+The features were all normalized using boxcox transformation.
 
 # Results
 Who knows lol
