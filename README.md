@@ -37,10 +37,18 @@ We downloaded our tweets by directly scraping [Twitter](https://twitter.com/) fo
 ### Translating Tweets
 The majority of our tweets were non-English, necessiting us to translate them in order to get an accurate model that works globally, not just for US startups. After filtering English tweets with the [guess_language](https://bitbucket.org/spirit/guess_language) python library, we used the [Microsoft Translator API](https://pypi.python.org/pypi/microsofttranslator/0.7) to translate all our tweets. The python notebook for running this translation is located [here](https://github.com/kyang01/startup-analysis/blob/master/translate-tweets.ipynb).
 
+# Feature Extraction
+
+### Feature Extraction
+
+### Natural Language Processing
+We parsed the text in each tweet using the pattern python library to extract nouns and adjectives. We removed punctuation and stopwords (from sklearn). We decided not to assign topics using LDA due to the heterogeneity of our tweets. We parsed the text into sentences and then tokenized the sentences into words. We then lemmatized the words, which means that we convert words into their basic form, for example: "walk", "walking", "walks", "walked" => "walk". Because each tweet is short (maximum 140 characters) we did not distinguish between sentences within tweets.
+
+### Twitter Sentiment Analysis
+We used the sentiment dictionary SentiWordNet 3.0, which assigns to words (both nouns and adjectives) three sentiment scores: positivity, negativity, objectivity. For each tweet, we took the average positivity score over all tokens and the average negativity score over all tokens. We also defined a word as "positive" or "negative" if it had positivity score>0.5 or negativity score>0.5 respectively. For each tweet, we then summed up the total "positive" words and total "negative" words (usually 0,1, and rarely 2). To summarize, we have four features from sentiment analysis: average positivity, average negativity, positive count, negative count. For each company, funding round pair, we then take the average of these features for all their tweets.
+
 # Data Analysis
 *models*
-
-# Feature Extraction
 
 # Results
 Who knows lol
