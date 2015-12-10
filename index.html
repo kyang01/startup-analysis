@@ -73,16 +73,18 @@ Overview</h3>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Startup Financial Analysis</h3>
-<p>After preliminary analysis, we determined the averge Series A funding round is approximately $6 million, the average Series B funding round is $11 million, the average Series C funding round is $16 million, and the average Series D funding round is around $17 million dollars. However, there is significant variance in the amount of money each company raises. Graphing it on a scale from 0 to $100 million, we see all Series are very much skewed right.</p>
+<p>After preliminary analysis, we determined the average Series A funding round is approximately $6 million, the average Series B funding round is $11 million, the average Series C funding round is $16 million, and the average Series D funding round is around $17 million dollars. However, there is significant variance in the amount of money each company raises. Graphing it on a scale from 0 to $100 million, we see all Series are very much skewed right.</p>
 <img src="images/series_funding.png">
 <p>However, once we plot the log of the data instead, we are able to get a distribution that looks much less skewed and that we can treat as similar to normal.</p>
 <img src="images/series_funding_log.png">
 
 
 <h2>
-    <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Predictions</h2>
+    <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Exploration and Feature Selection</h2>
+          
 <h3>Naive Predictions</h3>
 <p>Based off just the Series data, we're able to predict funding round amounts naively by predicting the average Series amount. We find the root mean squared error to be approximately $10 million, a baseline prediction we'll use to compare to our later, more complex predictions.</p>
+          
 <h3>Correlation Analysis</h3>
 <p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates. With and without scaling both parameters, our results were mostly inconclusive. While some scaled v. scaled graphs displayed homoscedastic behavior (equal variance across features), their slopes tended to be very close to 0 and not at all linear.</p>
 <br/>
@@ -95,6 +97,23 @@ Overview</h3>
 <p>We did find some homoskedastic correlations for scaled 'Amount Raised' against scaled features', but unfortunately these slopes were flat.</p>
 <img src="images/scaled_amount_vs_features_scaled.png">
 <p>From our correlation analysis, we infer that using SVR may be a better method for predictive modeling than linear regression.</p>
+    
+<h3>Principal Component Analysis</h3>
+          
+          <p>Principal Component Analysis (PCA) tries to isolate a handful of linear combinations of features that "explain" most variances in the data. This is a descriptive, not predictive, technique, and it operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We then use Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance.
+                  <img src="images/pca_explain_var.png">
+              The python notebook for PCA is <a href="https://github.com/kyang01/startup-analysis/blob/master/pca-and-svr.ipynb">here</a>.  </p>
+          
+ <h2>Predictive Modeling </h2>
+          
+          <h3> Linear Regression</h3>
+          
+          <h3> Support Vector Regression (SVR) </h3>
+          <p> We suspect that the problem is not linear, so we turn to Support Vector Regression (SVR).  We split the data into the training data and the testing data, standardize the numerical features of each of the two datasets separately. We try three choices of kernels - rbf, linear and polynomial. For each choice of kernal, we use GridSearchCV with 5-fold cross validation to find the optimal parameters of the predictor over a reasonable (pre-determined) range of parameters. We then fit the predictor to the training data, predict it on the test data, and evaluate it by computing RMSE on log(funding). We found that rbf predictor with C=100 and gamma=0.01 is the best, with RMSE around 1. This result is comparable to linear regression. The python notebook for SVR is  <a href="https://github.com/kyang01/startup-analysis/blob/master/pca-and-svr.ipynb">here</a>.. </p>
+
+          
+          
+     
 
 <h3>Filler text</h3>
 <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub. But then the Touhous came. Why is guessing regression values so OP -Roger -Kevin</p>
