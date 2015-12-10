@@ -11,20 +11,20 @@ This project tests our hypothesis by *model description here*.
 # Overview of Procedure
 
 1. Data Collection and Cleaning
-- Scraping Twitter and AngelList
-- Translating foreign language tweets
+  - Scraping Twitter and AngelList
+  - Translating foreign language tweets
 2. Feature Extraction
-- Feature Extraction
-- NLP
-- Twitter Sentiment Analysis
+  - Feature Extraction
+  - NLP
+  - Twitter Sentiment Analysis
 3. Data Exploration and Feature Selection
-- Correlation Analysis 
-- PCA
+  - Correlation Analysis 
+  - PCA
 4. Predictive Modeling
-- Linear Regression
-- SVM
+  - Linear Regression
+  - SVM
 5. Presentation
-- Website
+  - Website
 
 # Data Collection
 
@@ -52,3 +52,6 @@ We used the sentiment dictionary SentiWordNet 3.0, which assigns to words (both 
 
 # Results
 Who knows lol
+
+# Website
+[http://kyang01.github.io/startup-analysis/](http://kyang01.github.io/startup-analysis/)
