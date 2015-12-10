@@ -56,16 +56,19 @@ Overview</h3>
 <p>We propose to test the converse: Before financing rounds, might there be an abnormal amount of PR activity? Can we predict details on events like financing rounds based on mentions of a company on social media platforms like Twitter? Or is social media a noisy, meaningless indicator?</p>
 <p>This project aims to use data analysis and predictive analytics to find correlations between tweets and startup funding rounds in order to shed light on potential importance of tweets and social media in general as indicators of startup success. Through a variety of models, we show that there is unfortunately minimal relationship between tweets and startup funding.</p>
 
-<h2>
-<a id="analysis" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis</h2>
-<p>Analysis stuff</p>
-
 <h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Collection</h3>
-<h4>Startup Financials</h4>
+<h5>Startup Financials</h5>
 <p>We obtained startup funding round data (Series A, B, C, D, E, etc. with amounts raised and valuations) from <a href="https://github.com/kyang01/startup-analysis/blob/master/angel-scraping.ipynb">AngelList</a> and <a href="https://github.com/kyang01/startup-analysis/blob/master/cb-scraping.ipynb">Crunchbase</a> by scraping their search pages.</p>
-<h4>Tweets</h4>
-<p>We obtained tweet data (text, time, location, likes/retweets, etc.) by <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-scraping.ipynb">scraping</a> the Twitter search page. Although Twitter has an API, it provides insufficient and outdated information.</p>
+<h5>Tweets</h5>
+<p>We obtained tweet data (text, time, location, likes/retweets, etc.) by <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-scraping.ipynb">scraping</a> the Twitter search page. This necessitated significant <a href="https://github.com/kyang01/startup-analysis/blob/master/twitter-extraction.ipynb">cleaning</a> to be usable. Although Twitter has an API, it provides insufficient and outdated information.</p>
+<h5>Miscellaneous Processing</h5>
+<p>The majority of our tweets were non-English, so we chose to translate them via Microsoft Translator in order to have all-English results that would work globally. We took the nouns and adjectives from tweets, reducing sentences into words. We then converted words into their basic form, for example: "walk", "walking", "walks", "walked" =&gt;"walk". Each tweet is 140 characters at most, so we don't need to distinguish between sentences within tweets. </p>
+
+<h2>
+<a id="analysis" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis</h2>
+<h3>Sentiment Analysis</h3>
+<p>We used a sentiment dictionary grade the positivity, negativity, and objectivity of our words. “Positive" or “negative" words have positivity score&gt;0.5 or negativity score&gt;0.5, respectively. For each tweet, we took the average positivity and negativity score over all tokens, then summed up the total "positive" words and total "negative" words (usually 0,1, and rarely 2) in the tweet. To summarize, we have four features from sentiment analysis: average positivity, average negativity, positive count, negative count. For each company, funding round pair, we then take the average of these features for all their tweets.</p>
 
 
 <h3>
