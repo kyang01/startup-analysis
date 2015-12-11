@@ -83,7 +83,7 @@ Overview</h3>
 
 
 <h2>
-    <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Extraction</h2>
+    <a class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Extraction</h2>
 
 <h3>Features from Tweet Metadata</h3>
 <p>
@@ -104,7 +104,7 @@ We create an indicator variable for each of the 4 funding rounds (A,B,C,D). When
 </p>
 
 <h2>
-    <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Exploration and Feature Selection</h2>
+    <a class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Exploration and Feature Selection</h2>
  
 <h3>Natural Language Processing</h3>
 
@@ -134,8 +134,8 @@ We parsed the text in each tweet using the pattern python library to extract nou
 <p>Principal Component Analysis (PCA) tries to isolate a handful of linear combinations of features that "explain" most variances in the data. This is a descriptive, not predictive, technique, and it operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We then use Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance.</p>
                   <img src="images/pca_explain_var.png">
           
- <h2>Predictive Modeling </h2>
-          
+<h2>
+<a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Predictive Modeling</h2>
           <h3>Baseline Predictions</h3>
 <p>Based off just the Series data, we're able to predict funding round amounts naively by predicting the average Series amount. We find the root mean squared error to be approximately $10 million, a baseline prediction we'll use to compare to our later, more complex predictions.</p>
           
