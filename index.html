@@ -1,3 +1,19 @@
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @jerryinfinity
+ Unwatch 4
+  Star 0
+ Fork 0 kyang01/startup-analysis
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathstartup-analysis/index.html
+b9fcff2  5 minutes ago
+@jerryinfinity jerryinfinity add feature extraction
+1 contributor
+RawBlameHistory     193 lines (136 sloc)  18.6 KB
 <!DOCTYPE html>
 <html>
 
@@ -97,8 +113,22 @@ Overview</h3>
     <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Extraction</h2>
 
 <h3>Features from Tweet Metadata</h3>
+<p>
+  We get some metadata from scraping: the number of likes, the number of retweets, the date tweeted for each tweet. We group these by (company, funding_round) combination and compute the mean and standard deviation for each pair. We create features from these dates by computing the range of dates spanned among our ~200 tweets scraped, and the interquartile range. The intuition is that even though we can't scrape all the tweets made, if the range of dates are wide, given the fixed amount of tweets, then the tweets are made relatively infrequently. This might have some predictive power.
+</p>
 
-<h3>Features from Tweet Text</h3>
+
+
+<h3>Features from Tweet Texts</h3>
+<p>
+Apart from metadata, we can extract a number of features from the text in the tweet itself. We compute text length, the number of hashtags, the number of persontags (tags of other Twitter accounts, beginning with @), the number of links, the proportion of tweets made by the company itself versus other people, the number of times tweets are directed toward the company.
+</p>
+
+
+<h3>Features from Funding Series and Market Sectors</h3> 
+<p>
+We create an indicator variable for each of the 4 funding rounds (A,B,C,D). When we look at the market sector data (that we get from scraping) we see that some sectors have a lot of companies in it (such as Biotech, has around 300) while most categories have very few (mostly less than 10). These categories that have few companies are not very useful because they are too dispersed and specific, but we think the top sectors that have a lot of companies are more useful, so we create indicator variables for top 10 sectors.
+</p>
 
 <h2>
     <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Exploration and Feature Selection</h2>
@@ -176,3 +206,5 @@ We parsed the text in each tweet using the pattern python library to extract nou
 
   </body>
 </html>
+Status API Training Shop Blog About Pricing
+© 2015 GitHub, Inc. Terms Privacy Security Contact Help
