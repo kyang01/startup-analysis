@@ -146,6 +146,43 @@ We parsed the text in each tweet using the pattern python library to extract nou
   We suspect that the problem is not linear, so we turn to Support Vector Regression (SVR).  We split the data into the training data and the testing data, standardize the numerical features of each of the two datasets separately. We try three choices of kernels - rbf, linear and polynomial. For each choice of kernal, we use GridSearchCV with 5-fold cross validation to find the optimal parameters of the predictor over a reasonable (pre-determined) range of parameters. We then fit the predictor to the training data, predict it on the test data, and evaluate it by computing RMSE on log(funding). We found that rbf predictor with C=100 and gamma=0.01 is the best, with RMSE around 1. This result is comparable to linear regression.
 </p>
 
+<h3>Root Mean Square Deviations</h3>
+<table>
+    <tr>
+        <td><b>Type of Model</b></td>
+        <td><b>RMSE Value</b></td>
+    </tr>
+    <tr>
+        <td>Baseline</td>
+        <td>118.2</td>
+    </tr>
+    <tr>
+        <td>SVR RBF</td>
+        <td>1.1</td>
+    </tr>
+    <tr>
+        <td>SVR Linear</td>
+        <td>10.9</td>
+    </tr>
+    <tr>
+        <td>SVR Poly</td>
+        <td>33.1</td>
+    </tr>
+    <tr>
+        <td>Lasso Regression (R-sq = 0.15)</td>
+        <td>18.3</td>
+    </tr>
+    <tr>
+        <td>Ridge Regression (R-sq = 0.15)</td>
+        <td>18.3</td>
+    </tr>
+    <tr>
+        <td>Neural Net</td>
+        <td>20.2</td>
+    </tr>
+</table>
+
+
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
