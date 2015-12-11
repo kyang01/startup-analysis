@@ -7,6 +7,7 @@
     <meta name="description" content="Startup-analysis : ">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
 
     <title>Predicting Startup Funding Via Twitter</title>
   </head>
@@ -133,13 +134,13 @@ We parsed the text in each tweet using the pattern python library to extract nou
 <p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates. With and without scaling both parameters, our results were mostly inconclusive. While some scaled v. scaled graphs displayed homoscedastic behavior (equal variance across features), their slopes tended to be very close to 0 and not at all linear.</p>
 <br/>
 <p>We plotted the unscaled 'Amount Raised' against all unscaled numerical features, and found no linear correlations.</p>
-<img src="images/amount_vs_features.png">
+<a href="images/amount_vs_features.png" data-lightbox="avf" data-title="avf"><img src="images/amount_vs_features.png" style="height:300px;"></a>
 <p>We then plotted the unscaled 'Amount Raised' against all numerical features normalized using boxcox transformation, and again found no linear correlations.</p>
-<img src="images/amount_vs_features_scaled.png">
+<a href="images/amount_vs_features_scaled.png" data-lightbox="avfs" data-title="avfs"><img src="images/amount_vs_features_scaled.png" style="height:300px;"></a>
 <p>We did not find linear correlations for scaled 'Amount Raised' against unscaled features either.</p>
-<img src="images/scaled_amount_vs_features.png">
+<a href="images/scaled_amount_vs_features.png" data-lightbox="savf" data-title="savf"><img src="images/scaled_amount_vs_features.png" style="height:300px;" ></a>
 <p>We did find some homoskedastic correlations for scaled 'Amount Raised' against scaled features', but unfortunately these slopes were flat.</p>
-<img src="images/scaled_amount_vs_features_scaled.png">
+<a href="images/scaled_amount_vs_features_scaled.png" data-lightbox="savfs" data-title="savfs"><img src="images/scaled_amount_vs_features_scaled.png" style="height:300px;" ></a>
 <p>From our correlation analysis, we infer that using SVR may be a better method for predictive modeling than linear regression.</p>
     
 <h3>Principal Component Analysis</h3>
@@ -174,7 +175,9 @@ We parsed the text in each tweet using the pattern python library to extract nou
       </footer>
     </div>
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     
+<script src="path/to/lightbox.js"></script>
 
   </body>
 </html>
