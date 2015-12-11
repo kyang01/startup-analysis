@@ -48,8 +48,6 @@
 <!--a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h3>
 Overview</h3>
 -->
-<p>For the average public relations officer, manipulating the media is a standby. Social media is no exception, with sites like Twitter, Instagram, and Facebook now regular tools in a publicist's arsenal. Raising brand awareness and positive sentiment may be especially important before important events like a startup's Series B.
-</p>
 <p>We propose to test the converse: Before financing rounds, might there be an abnormal amount of PR activity? Can we predict details on events like financing rounds based on mentions of a company on social media platforms like Twitter? Or is social media a noisy, meaningless indicator?</p>
 <p>This project aims to use data analysis and predictive analytics to find correlations between tweets and startup funding rounds in order to shed light on potential importance of tweets and social media in general as indicators of startup success. Through a variety of models, we show that there is a relationship between tweets and startup funding.</p>
 
@@ -68,15 +66,13 @@ Overview</h3>
 
 <p>The majority of our tweets were non-English, necessiting us to translate them in order to get an accurate model that works globally, not just for US startups. After filtering English tweets with the <a href="https://bitbucket.org/spirit/guess_language">guess_language</a> python library, we used the <a href="https://pypi.python.org/pypi/microsofttranslator/0.7">Microsoft Translator API</a> to translate all our tweets.</p>
 
-<p>The majority of our tweets were non-English, so we chose to translate them via Microsoft Translator in order to have all-English results that would work globally. We took the nouns and adjectives from tweets, reducing sentences into words. We then converted words into their basic form, for example: "walk", "walking", "walks", "walked" =&gt;"walk". Each tweet is 140 characters at most, so we don't need to distinguish between sentences within tweets. </p>
-
 <h2>
 <a id="analysis" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exploratory Data Analysis</h2>
 
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Startup Financial Analysis</h3>
-<p>After preliminary analysis, we determined the average Series A funding round is approximately $6 million, the average Series B funding round is $11 million, the average Series C funding round is $16 million, and the average Series D funding round is around $17 million dollars. However, there is significant variance in the amount of money each company raises. Graphing it on a scale from 0 to $100 million, we see all Series are very much skewed right.</p>
+<p>After preliminary analysis, we determined that the average Series A funding round is approximately $6 million, the average Series B funding round is $11 million, the average Series C funding round is $16 million, and the average Series D funding round is around $17 million dollars. However, there is significant variance in the amount of money each company raises. Graphing it on a scale from 0 to $100 million, we see all Series are very much skewed right.</p>
 <img src="images/series_funding.png">
 <p>However, once we plot the log of the data instead, we are able to get a distribution that looks much less skewed and that we can treat as similar to normal.</p>
 <img src="images/series_funding_log.png">
@@ -87,20 +83,19 @@ Overview</h3>
 
 <h3>Features from Tweet Metadata</h3>
 <p>
-  We get some metadata from scraping: the number of likes, the number of retweets, the date tweeted for each tweet. We group these by (company, funding_round) combination and compute the mean and standard deviation for each pair. We create features from these dates by computing the range of dates spanned among our ~200 tweets scraped, and the interquartile range. The intuition is that even though we can't scrape all the tweets made, if the range of dates are wide, given the fixed amount of tweets, then the tweets are made relatively infrequently. This might have some predictive power.
+We  extracted features from Twitter metadata such as: the number of likes, the number of retweets, the date tweeted for each tweet. We grouped these by (company, funding_round) combination and compute the mean and standard deviation for each pair. We created features from these dates by computing the range of dates spanned among our ~200 tweets scraped, and the interquartile range. The intuition is that even though we can't scrape all the tweets made, if the range of dates are wide, given the fixed amount of tweets, then the tweets are made relatively infrequently. This might have some predictive power.
 </p>
 
 
-
-<h3>Features from Tweet Texts</h3>
+<h3>Features from Tweet Text</h3>
 <p>
-Apart from metadata, we can extract a number of features from the text in the tweet itself. We compute text length, the number of hashtags, the number of persontags (tags of other Twitter accounts, beginning with @), the number of links, the proportion of tweets made by the company itself versus other people, the number of times tweets are directed toward the company.
+Apart from metadata, we extracted a number of features from the text in the tweet itself. We computed text length, the number of hashtags, the number of persontags (tags of other Twitter accounts, beginning with @), the number of links, the proportion of tweets made by the company itself versus other people, the number of times tweets are directed toward the company.
 </p>
 
 
 <h3>Features from Funding Series and Market Sectors</h3> 
 <p>
-We create an indicator variable for each of the 4 funding rounds (A,B,C,D). When we look at the market sector data (that we get from scraping) we see that some sectors have a lot of companies in it (such as Biotech, has around 300) while most categories have very few (mostly less than 10). These categories that have few companies are not very useful because they are too dispersed and specific, but we think the top sectors that have a lot of companies are more useful, so we create indicator variables for top 10 sectors.
+We created an indicator variable for each of the 4 funding rounds (A,B,C,D). When we looked at the market sector data (that we get from scraping) we see that some sectors have a lot of companies in it (such as Biotech, has around 300) while most categories have very few (mostly less than 10). These categories that have few companies are not very useful because they are too dispersed and specific, but we think the top sectors that have a lot of companies are more useful, so we create indicator variables for top 10 sectors.
 </p>
 
 <h2>
@@ -114,16 +109,15 @@ We parsed the text in each tweet using the pattern python library to extract nou
 <p>
   We used the sentiment dictionary SentiWordNet 3.0, which assigns to words (both nouns and adjectives) three sentiment scores: positivity, negativity, objectivity. For each tweet, we took the average positivity score over all tokens and the average negativity score over all tokens. We also defined a word as "positive" or "negative" if it had positivity score>0.5 or negativity score>0.5 respectively. For each tweet, we then summed up the total "positive" words and total "negative" words (usually 0,1, and rarely 2). To summarize, we have four features from sentiment analysis: average positivity, average negativity, positive count, negative count. For each company, funding round pair, we then take the average of these features for all their tweets.
 </p>
-
           
 <h3>Correlation Analysis</h3>
 <p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates. With and without scaling both parameters, our results were mostly inconclusive. While some scaled v. scaled graphs displayed homoscedastic behavior (equal variance across features), their slopes tended to be very close to 0 and not at all linear.</p>
 <br/>
 <p>We plotted the unscaled 'Amount Raised' against all unscaled numerical features, and found no linear correlations.</p>
 <a href="images/amount_vs_features.png" data-lightbox="avf" data-title="avf"><img src="images/amount_vs_features.png" style="height:300px;"></a>
-<p>We then plotted the unscaled 'Amount Raised' against all numerical features normalized using boxcox transformation, and again found no linear correlations.</p>
+<p>We then plotted log of 'Amount Raised' against all numerical features normalized using Box Cox transformation (see PCA section), and again found no linear correlations.</p>
 <a href="images/amount_vs_features_scaled.png" data-lightbox="avfs" data-title="avfs"><img src="images/amount_vs_features_scaled.png" style="height:300px;"></a>
-<p>We did not find linear correlations for scaled 'Amount Raised' against unscaled features either.</p>
+<p>We did not find linear correlations for log of 'Amount Raised' against unscaled features either.</p>
 <a href="images/scaled_amount_vs_features.png" data-lightbox="savf" data-title="savf"><img src="images/scaled_amount_vs_features.png" style="height:300px;" ></a>
 <p>We did find some homoskedastic correlations for scaled 'Amount Raised' against scaled features', but unfortunately these slopes were flat.</p>
 <a href="images/scaled_amount_vs_features_scaled.png" data-lightbox="savfs" data-title="savfs"><img src="images/scaled_amount_vs_features_scaled.png" style="height:300px;" ></a>
@@ -131,7 +125,7 @@ We parsed the text in each tweet using the pattern python library to extract nou
     
 <h3>Principal Component Analysis</h3>
           
-<p>Principal Component Analysis (PCA) tries to isolate a handful of linear combinations of features that "explain" most variances in the data. This is a descriptive, not predictive, technique, and it operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We then use Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance.</p>
+<p>Principal Component Analysis (PCA) tries to isolate a handful of linear combinations of features that "explain" most variances in the data. This is a descriptive, not predictive, technique, and it operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We therefore used Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance. The most important features appear to be number of favorites and retweets and the date range of the last 200 tweets.</p>
                   <img src="images/pca_explain_var.png">
           
 <h2>
@@ -186,7 +180,6 @@ We parsed the text in each tweet using the pattern python library to extract nou
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble understanding Startup-Analysis? Check out <a href="https://github.com/contact">the code and implementations</a> directly.</p>
       </section>
     </div>
 
