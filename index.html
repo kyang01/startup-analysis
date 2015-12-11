@@ -112,7 +112,7 @@ We parsed the text in each tweet using the pattern python library to extract nou
           
 <h3>Correlation Analysis</h3>
 <p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates.</p>
-<br/>
+
 <p>We plotted the unscaled 'Amount Raised' against all unscaled numerical features, and found no linear correlations.</p>
 <a href="images/amount_vs_features.png" data-lightbox="avf" data-title="avf"><img src="images/amount_vs_features.png" style="height:300px;"></a>
 <p>We then plotted log of 'Amount Raised' against all numerical features normalized using Box Cox transformation (see PCA section), and again found no linear correlations.</p>
@@ -131,7 +131,7 @@ We parsed the text in each tweet using the pattern python library to extract nou
 <h2>
 <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Predictive Modeling</h2>
           
-          <h3>K-fold Cross-Validation</h3>We split the data into the training data and the testing data, standardized the numerical features of each of the two datasets separately.
+          <h3>K-fold Cross-Validation</h3>We split the data into the training/validation data and  testing data, standardizing the numerical features of each of the two datasets separately. We trained our model on non-testing data, splitting it into 5 folds and assigning each fold as validation data one at a time to obtain hyperparameters. We then tested the model on the untouched testing data to check the robustness of our model.
           
           <h3>Baseline Predictions</h3>
 <p>Based off just the Series data, we're able to predict funding round amounts naively by predicting the average Series amount. We find the root mean squared error to be approximately $10 million, a baseline prediction we'll use to compare to our later, more complex predictions.</p>
