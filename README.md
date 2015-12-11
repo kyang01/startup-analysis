@@ -67,5 +67,9 @@ Principal Component Analysis (PCA) tries to isolate a handful of linear combinat
 
 We suspect that the problem is not linear, so we turn to Support Vector Regression (SVR).  We split the data into the training data and the testing data, standardize the numerical features of each of the two datasets separately. We try three choices of kernels - rbf, linear and polynomial. For each choice of kernal, we use GridSearchCV with 5-fold cross validation to find the optimal parameters of the predictor over a reasonable (pre-determined) range of parameters. We then fit the predictor to the training data, predict it on the test data, and evaluate it by computing RMSE on log(funding). We found that rbf predictor with C=100 and gamma=0.01 is the best, with RMSE around 1. This result is comparable to linear regression. The python notebook for PCA is [here](https://github.com/kyang01/startup-analysis/blob/master/pca-and-svr.ipynb) (same notebook as PCA).
 
+### Neural Nets
+
+In order to explore other methods that can identify nonlinear trends, we wanted to run neural nets as well. Similar to the previous example, we used normalized variations of numerical data. The data we wanted to predict was the log of the series funding amounts. We worked with various python neural net libraries with limited success. Ultimately, we decided to work with Matlab to create a neural net. We used the neural net toolbox and created a neural net with one layer of 50 intermediate nodes. The neural net package provided by Matlab uses the Levenberg-Marquadrt algorithm to run. In the end, we were able to achieve an RMSE of 18.8.
+
 # Website
 [http://kyang01.github.io/startup-analysis/](http://kyang01.github.io/startup-analysis/)
