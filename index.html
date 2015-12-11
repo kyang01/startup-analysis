@@ -60,7 +60,7 @@ Overview</h3>
 
 <h3>Tweets</h3>
 
-<p> We downloaded our tweets by directly scraping <a href="https://twitter.com">Twitter</a> for mentions of startups on our list. While Twitter does have an API, its Search API is limited to an index of 6-9 days of tweets and its Timeline API is limited to up to 3200 tweets per timeline, not to mention rate limits on scraping both. We did initially write a <a href="https://github.com/kyang01/startup-analysis/blob/d98e6455038abec2d97097eb3009fd04c508799d/Mining-the-Social-Web-2nd-Edition/ipynb/Chapter%201%20-%20Mining%20Twitter.ipynb">code that used the API</a>, but decided instead to scrape via the Twitter <a href="https://twitter.com/search?q=">search page</a> with Selenium Webdriver browser scripts and BeautifulSoup. The tweets are located in the <a href="https://github.com/kyang01/startup-analysis/tree/master/data">data</a> folder.</p>
+<p> We obtained our tweets by directly scraping <a href="https://twitter.com">Twitter</a> for mentions of startups on our list. While Twitter does have an API, its Search API is limited to an index of 6-9 days of tweets and its Timeline API is limited to up to 3200 tweets per timeline, not to mention rate limits on scraping both. We did initially write a <a href="https://github.com/kyang01/startup-analysis/blob/d98e6455038abec2d97097eb3009fd04c508799d/Mining-the-Social-Web-2nd-Edition/ipynb/Chapter%201%20-%20Mining%20Twitter.ipynb">code that used the API</a>, but decided instead to scrape via the Twitter <a href="https://twitter.com/search?q=">search page</a> with Selenium Webdriver browser scripts and BeautifulSoup. The tweets are located in the <a href="https://github.com/kyang01/startup-analysis/tree/master/data">data</a> folder.</p>
 
 <h3>Translating Tweets</h3>
 
@@ -83,7 +83,7 @@ Overview</h3>
 
 <h3>Features from Tweet Metadata</h3>
 <p>
-We  extracted features from Twitter metadata such as: the number of likes, the number of retweets, the date tweeted for each tweet. We grouped these by (company, funding_round) combination and compute the mean and standard deviation for each pair. We created features from these dates by computing the range of dates spanned among our ~200 tweets scraped, and the interquartile range. The intuition is that even though we can't scrape all the tweets made, if the range of dates are wide, given the fixed amount of tweets, then the tweets are made relatively infrequently. This might have some predictive power.
+We extracted features from Twitter metadata such as: the number of likes, the number of retweets, the date tweeted for each tweet. We grouped these by (company, funding_round) combination and compute the mean and standard deviation for each pair. We created features from these dates by computing the range of dates spanned among our ~200 tweets scraped, and the interquartile range. The intuition is that even though we can't scrape all the tweets made, if the range of dates are wide, given the fixed amount of tweets, then the tweets are made relatively infrequently. This might have some predictive power.
 </p>
 
 
@@ -111,7 +111,7 @@ We parsed the text in each tweet using the pattern python library to extract nou
 </p>
           
 <h3>Correlation Analysis</h3>
-<p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates. With and without scaling both parameters, our results were mostly inconclusive. While some scaled v. scaled graphs displayed homoscedastic behavior (equal variance across features), their slopes tended to be very close to 0 and not at all linear.</p>
+<p>In this analysis, we only considered the 1200 startups that had more than 150 tweets and valid dates.</p>
 <br/>
 <p>We plotted the unscaled 'Amount Raised' against all unscaled numerical features, and found no linear correlations.</p>
 <a href="images/amount_vs_features.png" data-lightbox="avf" data-title="avf"><img src="images/amount_vs_features.png" style="height:300px;"></a>
@@ -121,29 +121,34 @@ We parsed the text in each tweet using the pattern python library to extract nou
 <a href="images/scaled_amount_vs_features.png" data-lightbox="savf" data-title="savf"><img src="images/scaled_amount_vs_features.png" style="height:300px;" ></a>
 <p>We did find some homoskedastic correlations for scaled 'Amount Raised' against scaled features', but unfortunately these slopes were flat.</p>
 <a href="images/scaled_amount_vs_features_scaled.png" data-lightbox="savfs" data-title="savfs"><img src="images/scaled_amount_vs_features_scaled.png" style="height:300px;" ></a>
-<p>From our correlation analysis, we infer that using SVR may be a better method for predictive modeling than linear regression.</p>
+<p>While some scaled v. scaled graphs displayed homoscedastic behavior (equal variance across features), their slopes tended to be very close to 0 and not at all linear. From our correlation analysis, we infer that using SVR may be a better method for predictive modeling than linear regression.</p>
     
 <h3>Principal Component Analysis</h3>
           
-<p>Principal Component Analysis (PCA) tries to isolate a handful of linear combinations of features that "explain" most variances in the data. This is a descriptive, not predictive, technique, and it operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We therefore used Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance. The most important features appear to be number of favorites and retweets and the date range of the last 200 tweets.</p>
+<p>Principal Component Analysis (PCA) is a descriptive technique that aims to isolate a handful of linear combinations of features that "explain" most variances in the data and operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We therefore used Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance. The most important features appear to be number of favorites and retweets and the date range of the last 200 tweets.</p>
                   <img src="images/pca_explain_var.png">
           
 <h2>
 <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Predictive Modeling</h2>
+          
+          <h3>K-fold Cross-Validation</h3>We split the data into the training data and the testing data, standardized the numerical features of each of the two datasets separately.
+          
           <h3>Baseline Predictions</h3>
 <p>Based off just the Series data, we're able to predict funding round amounts naively by predicting the average Series amount. We find the root mean squared error to be approximately $10 million, a baseline prediction we'll use to compare to our later, more complex predictions.</p>
           
 <h3> Linear Regression</h3>
           
+<p> We performed regularized linear regression on the scaled data using two methods: Lasso, which constrains the L-1-norm of the parameter vector, and Ridge, which constrains the L-2-norm of the parameter vector. We computed RMSE and R-squared values in each case. We found that the two methods performed extremely similarly, with the Ridge model being slightly better (RMSE=18.3 compared to baseline of 118.2). Both methods gave an R-squared of ~0.15, which is relatively low, but not too bad as an individual predictive signal. Residual plots confirmed that residuals were approximated normal.</p>
+          
 <h3> Support Vector Regression (SVR) </h3>
 <p> 
-  We suspect that the problem is not linear, so we turn to Support Vector Regression (SVR).  We split the data into the training data and the testing data, standardize the numerical features of each of the two datasets separately. We try three choices of kernels - rbf, linear and polynomial. For each choice of kernal, we use GridSearchCV with 5-fold cross validation to find the optimal parameters of the predictor over a reasonable (pre-determined) range of parameters. We then fit the predictor to the training data, predict it on the test data, and evaluate it by computing RMSE on log(funding). We found that rbf predictor with C=100 and gamma=0.01 is the best, with RMSE around 1. This result is comparable to linear regression.
+  As correlation analysis suggested the relationships are non-linear, we turn to Support Vector Regression (SVR).  We try three choices of kernels - rbf, linear and polynomial. For each choice of kernal, we use GridSearchCV with 5-fold cross validation to find the optimal parameters of the predictor over a reasonable (pre-determined) range of parameters. We then fit the predictor to the training data, predict it on the test data, and evaluate it by computing RMSE on log(funding). We found that rbf predictor with C=100 and gamma=0.01 is the best, with RMSE around 1. This result is comparable to linear regression.
 </p>
 
 <h3> Neural Nets </h3>
 
 <p> 
-  In order to explore other methods that can identify nonlinear trends, we wanted to run neural nets as well.  Similar to the previous example, we used normalized variations of numerical data. The data we wanted to predict was the log of the series funding amounts. We worked with various python neural net libraries with limited success. Ultimately, we decided to work with Matlab to create a neural net. We used the neural net toolbox and created a neural net with one layer of 50 intermediate nodes. The neural net package provided by Matlab uses the Levenberg-Marquadrt algorithm to run. In the end, we were able to achieve an RMSE of 18.8. 
+  In order to explore other methods that can identify nonlinear trends, we ran neural nets as well.  As before, we used normalized variations of numerical data. The data we wanted to predict was the log of the series funding amounts. We worked with various python neural net libraries with limited success. Ultimately, we decided to work with Matlab to create a neural net. We used the neural net toolbox and created a neural net with one layer of 50 intermediate nodes. The neural net package provided by Matlab uses the Levenberg-Marquadrt algorithm to run. In the end, we were able to achieve an RMSE of 18.8. 
 
 </p>
 
