@@ -39,11 +39,22 @@ The majority of our tweets were non-English, necessiting us to translate them in
 
 # Feature Extraction
 
-### Feature Extraction
+### Features from Tweet Metadata
+
+We get some metadata from scraping: the number of likes, the number of retweets, the date tweeted for each tweet. We group these by (company, funding_round) combination and compute the mean and standard deviation for each pair. We create features from these dates by computing the range of dates spanned among our ~200 tweets scraped, and the interquartile range. The intuition is that even though we can't scrape all the tweets made, if the range of dates are wide, given the fixed amount of tweets, then the tweets are made relatively infrequently. This might have some predictive power.
+
+### Features from Tweet Texts
+
+Apart from metadata, we can extract a number of features from the text in the tweet itself. We compute text length, the number of hashtags, the number of persontags (tags of other Twitter accounts, beginning with @), the number of links, the proportion of tweets made by the company itself versus other people, the number of times tweets are directed toward the company.
+
+### Features from Funding Series and Market Sectors
+
+We create an indicator variable for each of the 4 funding rounds (A,B,C,D). When we look at the market sector data (that we get from scraping) we see that some sectors have a lot of companies in it (such as Biotech, has around 300) while most categories have very few (mostly less than 10). These categories that have few companies are not very useful because they are too dispersed and specific, but we think the top sectors that have a lot of companies are more useful, so we create indicator variables for top 10 sectors.
 
 
 
 ### Natural Language Processing
+
 We parsed the text in each tweet using the pattern python library to extract nouns and adjectives. We removed punctuation and stopwords (from sklearn). We decided not to assign topics using LDA due to the heterogeneity of our tweets. We parsed the text into sentences and then tokenized the sentences into words. We then lemmatized the words, which means that we convert words into their basic form, for example: "walk", "walking", "walks", "walked" => "walk". Because each tweet is short (maximum 140 characters) we did not distinguish between sentences within tweets. Code for NLP can be found [here](https://github.com/kyang01/startup-analysis/blob/master/Melody%20Twitter%20Sentiment%20Analysis.ipynb).
 
 ### Twitter Sentiment Analysis
