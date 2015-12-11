@@ -73,9 +73,14 @@ Overview</h3>
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Startup Financial Analysis</h3>
 <p>After preliminary analysis, we determined that the average Series A funding round is approximately $6 million, the average Series B funding round is $11 million, the average Series C funding round is $16 million, and the average Series D funding round is around $17 million dollars. However, there is significant variance in the amount of money each company raises. Graphing it on a scale from 0 to $100 million, we see all Series are very much skewed right.</p>
-<img src="images/series_funding.png">
+
+
+<a href="images/series_funding.png" data-lightbox="avf" data-title="avf"><img src="images/series_funding.png" style="height:300px;"></a>
+
 <p>However, once we plot the log of the data instead, we are able to get a distribution that looks much less skewed and that we can treat as similar to normal.</p>
-<img src="images/series_funding_log.png">
+
+
+<a href="images/series_funding_log.png" data-lightbox="avf" data-title="avf"><img src="images/series_funding_log.png" style="height:300px;"></a>
 
 
 <h2>
@@ -126,7 +131,9 @@ We parsed the text in each tweet using the pattern python library to extract nou
 <h3>Principal Component Analysis</h3>
           
 <p>Principal Component Analysis (PCA) tries to isolate a handful of linear combinations of features that "explain" most variances in the data. This is a descriptive, not predictive, technique, and it operates on the whole dataset without the training/testing division. Moreover, PCA is more informative if all features are suitably normalized, so no single feature can dominate the total variance. We therefore used Box Cox transformation on each column (the library chooses an appropriate parameter, different for each column, to make the resulting transformation approximately Normal.) The exception is the funding raised, which we use the log transformation (which is also a special case of Box Cox). This is justified because our plot shows that log(funding) looks Normal, and when we predict log(funding), reversing the function to get funding is more expedient. Our PCA shows that only a few (aggregated) features explain most of the variance. 3 top features explain 95% of the variance, while 5 top features explain 98% of the variance. The most important features appear to be number of favorites and retweets and the date range of the last 200 tweets.</p>
-                  <img src="images/pca_explain_var.png">
+
+
+<a href="images/pca_explain_var.png" data-lightbox="avf" data-title="avf"><img src="images/pca_explain_var.png" style="height:300px;"></a>
           
 <h2>
 <a id="predictions" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Predictive Modeling</h2>
@@ -147,9 +154,8 @@ We parsed the text in each tweet using the pattern python library to extract nou
 
 </p>
 
-    <img src="images/nn_results.png">
-    <img src="images/nn_error.png">
-
+<a href="images/nn_results.png" data-lightbox="avf" data-title="avf"><img src="images/nn_results.png" style="height:300px;"></a>
+<a href="images/nn_error.png" data-lightbox="avf" data-title="avf"><img src="images/nn_error.png" style="height:300px;"></a>
 
 
 <h3>Root Mean Square Deviations</h3>
